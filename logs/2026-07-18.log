@@ -1,0 +1,100 @@
+[2026-07-18T15:28:50.567Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-18T15:28:50.913Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-18T15:28:50.914Z] [INFO] [STREAK] Next new day: 2026-07-18T22:00:00.000Z
+[2026-07-18T15:28:50.922Z] [INFO] [SLASH] Registering 32 slash commands globally...
+[2026-07-18T15:28:51.110Z] [INFO] [SLASH] Registered 32 slash commands successfully.
+[2026-07-18T15:28:51.110Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-18T15:28:51.111Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-18T15:28:51.112Z] [INFO] [GUILD] Initialized settings for: Veyn (1523338944853573722)
+[2026-07-18T15:28:51.112Z] [INFO] [GUILD] Initialized settings for: peaked (1527037800954986748)
+[2026-07-18T15:28:51.112Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-18T15:49:20.479Z] [INFO] [CMD] scarygore in peaked → .help
+[2026-07-18T15:49:37.654Z] [INFO] [CMD] scarygore in peaked → .help
+[2026-07-18T15:51:13.940Z] [INFO] [CMD] scarygore in peaked → .help
+[2026-07-18T15:51:35.811Z] [INFO] [CMD] scarygore in peaked → .setup
+[2026-07-18T15:51:43.564Z] [INFO] [CMD] scarygore in peaked → .mute
+[2026-07-18T15:54:39.881Z] [INFO] [CMD] scarygore in peaked → .help
+[2026-07-18T15:55:15.125Z] [INFO] [CMD] scarygore in peaked → .prefix
+[2026-07-18T15:58:28.746Z] [INFO] [CMD] scarygore in peaked → .purge
+[2026-07-18T15:58:33.296Z] [INFO] [CMD] scarygore in peaked → .purge
+[2026-07-18T15:58:50.047Z] [INFO] [CMD] scarygore in peaked → .purge
+[2026-07-18T15:59:04.720Z] [INFO] [CMD] scarygore in peaked → .nuke
+[2026-07-18T15:59:08.201Z] [ERROR] [NUKE] Failed to nuke #⋆ — Cannot delete a channel required for community servers
+[2026-07-18T15:59:25.617Z] [INFO] [CMD] scarygore in peaked → .nuke
+[2026-07-18T16:00:31.020Z] [INFO] [CMD] scarygore in peaked → .forcenickname
+[2026-07-18T16:03:27.441Z] [INFO] [CMD] scarygore in peaked → .ticket
+[2026-07-18T16:03:30.682Z] [ERROR] [TICKET] Ticket create error — permissionOverwrites is not defined
+[2026-07-18T16:05:39.963Z] [INFO] [CMD] scarygore in peaked → .avatar
+[2026-07-18T16:17:09.984Z] [INFO] [CMD] scarygore in peaked → .ticket
+[2026-07-18T16:17:26.680Z] [INFO] [CMD] scarygore in peaked → .help
+[2026-07-18T16:17:37.034Z] [INFO] [CMD] scarygore in peaked → .config
+[2026-07-18T16:48:44.871Z] [INFO] [CMD] scarygore in Veyn → .level
+[2026-07-18T16:48:49.483Z] [INFO] [CMD] scarygore in Veyn → .help
+[2026-07-18T16:49:09.123Z] [INFO] [CMD] scarygore in Veyn → .levels
+[2026-07-18T16:50:44.399Z] [INFO] [CMD] scarygore in Veyn → .staff
+[2026-07-18T16:51:28.736Z] [INFO] [CMD] scarygore in Veyn → .snipe
+[2026-07-18T17:09:02.027Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-18T17:09:02.181Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-18T17:09:02.182Z] [INFO] [STREAK] Next new day: 2026-07-18T22:00:00.000Z
+[2026-07-18T17:09:02.189Z] [INFO] [SLASH] Registering 32 slash commands globally...
+[2026-07-18T17:09:02.401Z] [INFO] [SLASH] Registered 32 slash commands successfully.
+[2026-07-18T17:09:02.403Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-18T17:09:02.404Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-18T17:09:02.404Z] [WARN] [WHITELIST] Leaving non-whitelisted guild on startup: Veyn (1523338944853573722)
+[2026-07-18T17:09:02.698Z] [INFO] [BOT] Ready. Serving 1 guilds.
+[2026-07-18T17:10:16.755Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-18T17:10:16.860Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-18T17:10:16.861Z] [INFO] [STREAK] Next new day: 2026-07-18T22:00:00.000Z
+[2026-07-18T17:10:16.869Z] [INFO] [SLASH] Registering 32 slash commands globally...
+[2026-07-18T17:10:17.157Z] [INFO] [SLASH] Registered 32 slash commands successfully.
+[2026-07-18T17:10:17.159Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-18T17:10:17.161Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-18T17:10:17.161Z] [INFO] [BOT] Ready. Serving 1 guilds.
+[2026-07-18T17:18:43.648Z] [INFO] [CMD] scarygore in peaked → .voicemaster
+[2026-07-18T17:24:19.317Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-18T17:24:19.634Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-18T17:24:19.635Z] [INFO] [STREAK] Next new day: 2026-07-18T22:00:00.000Z
+[2026-07-18T17:24:19.643Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-18T17:24:43.114Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-18T17:24:43.242Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-18T17:24:43.242Z] [INFO] [STREAK] Next new day: 2026-07-18T22:00:00.000Z
+[2026-07-18T17:24:43.249Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-18T17:24:43.706Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-18T17:24:43.708Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-18T17:24:43.712Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-18T17:24:44.007Z] [INFO] [BOT] Ready. Serving 1 guilds.
+[2026-07-18T17:28:44.649Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-18T17:28:44.776Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-18T17:28:44.776Z] [INFO] [STREAK] Next new day: 2026-07-18T22:00:00.000Z
+[2026-07-18T17:28:44.782Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-18T17:28:45.071Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-18T17:28:45.072Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-18T17:28:45.074Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-18T17:28:45.456Z] [INFO] [BOT] Ready. Serving 1 guilds.
+[2026-07-18T17:36:39.519Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-18T17:36:39.780Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-18T17:36:39.782Z] [INFO] [STREAK] Next new day: 2026-07-18T22:00:00.000Z
+[2026-07-18T17:36:39.799Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-18T17:36:40.247Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-18T17:36:40.249Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-18T17:36:40.252Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-18T17:36:40.252Z] [INFO] [BOT] Ready. Serving 1 guilds.
+[2026-07-18T17:38:04.764Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-18T17:38:04.871Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-18T17:38:04.872Z] [INFO] [STREAK] Next new day: 2026-07-18T22:00:00.000Z
+[2026-07-18T17:38:04.880Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-18T17:38:05.071Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-18T17:38:05.072Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-18T17:38:05.075Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-18T17:38:05.075Z] [INFO] [BOT] Ready. Serving 1 guilds.
+[2026-07-18T17:39:17.009Z] [INFO] [CMD] scarygore in peaked → .help
+[2026-07-18T17:39:45.353Z] [INFO] [CMD] scarygore in peaked → .help
+[2026-07-18T17:40:22.566Z] [INFO] [CMD] scarygore in peaked → .vc
+[2026-07-18T17:41:11.420Z] [INFO] [CMD] scarygore in peaked → .voicemaster
+[2026-07-18T17:41:18.023Z] [INFO] [CMD] scarygore in peaked → .voicemaster
+[2026-07-18T17:42:44.704Z] [INFO] [CMD] scarygore in peaked → .help
+[2026-07-18T17:42:55.656Z] [INFO] [CMD] scarygore in peaked → .prefix
+[2026-07-18T17:42:58.308Z] [INFO] [CMD] scarygore in peaked → .tickets
+[2026-07-18T17:43:01.979Z] [INFO] [CMD] scarygore in peaked → .ticket
+[2026-07-18T17:43:07.849Z] [INFO] [CMD] scarygore in peaked → .ticket
+[2026-07-18T17:43:42.546Z] [INFO] [CMD] scarygore in peaked → .voicemaster

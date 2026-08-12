@@ -1,0 +1,118 @@
+{
+  "_initialized": true,
+  "settings": {},
+  "modules": {},
+  "staffRoles": [],
+  "cases": [],
+  "notes": {},
+  "temproles": [],
+  "reminders": [],
+  "users": {
+    "1278713831345881170": {
+      "xp": 71,
+      "level": 0,
+      "balance": 0,
+      "bank": 0,
+      "warnings": [],
+      "inventory": [],
+      "lastDaily": null,
+      "lastWeekly": null,
+      "lastWork": null,
+      "lastCrime": null
+    }
+  },
+  "lastSeen": {
+    "1278713831345881170": 1786226924994
+  },
+  "messageStats": {
+    "1528888947072041010": {
+      "1278713831345881170": {
+        "daily": {
+          "2026-08-07": 1,
+          "2026-08-08": 3
+        },
+        "weekly": {
+          "2026-08-03": 4
+        },
+        "monthly": {
+          "2026-08": 4
+        },
+        "total": 4
+      }
+    }
+  },
+  "ignored": {
+    "members": [],
+    "channels": []
+  },
+  "autoresponders": {},
+  "commandUsage": {
+    "ttt": 2
+  },
+  "economy": {
+    "enabled": false,
+    "logChannelId": null,
+    "rewards": {
+      "daily": 500,
+      "workMin": 100,
+      "workMax": 400,
+      "quest": 300,
+      "trivia": 200,
+      "scramble": 200,
+      "math": 200,
+      "fasttype": 200,
+      "memory": 200,
+      "slotsMixed": 50,
+      "slotsCherry": 500,
+      "slotsStar": 1000,
+      "slotsDiamond": 2500,
+      "wheel": [
+        50,
+        100,
+        250,
+        500,
+        1000
+      ],
+      "scratchMin": 50,
+      "scratchMax": 500,
+      "minesBase": 100,
+      "minesIncrement": 50,
+      "cupsEasy": 100,
+      "cupsMedium": 250,
+      "cupsHard": 500,
+      "highlow": 200,
+      "jackpot": 5000
+    },
+    "cooldowns": {
+      "daily": 86400000,
+      "work": 3600000,
+      "trivia": 300000,
+      "scramble": 300000,
+      "math": 300000,
+      "fasttype": 300000,
+      "memory": 300000,
+      "slots": 300000,
+      "wheel": 300000,
+      "scratch": 300000,
+      "mines": 300000,
+      "cups": 300000,
+      "highlow": 300000,
+      "jackpot": 3600000
+    },
+    "events": {
+      "enabled": true,
+      "autoInterval": 3600000
+    },
+    "eventMultipliers": {
+      "work": 2,
+      "quest": 2,
+      "trivia": 2,
+      "casino": 2
+    },
+    "maxBalance": 999999999,
+    "dailyRewardLimit": 50000,
+    "antiSpamWindow": 10000,
+    "antiSpamThreshold": 10,
+    "messageCooldown": 2000
+  }
+}

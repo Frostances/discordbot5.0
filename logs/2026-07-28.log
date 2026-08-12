@@ -1,0 +1,286 @@
+[2026-07-28T20:19:33.556Z] [ERROR] [PROCESS] Unhandled rejection — An invalid token was provided.
+[2026-07-28T20:20:55.011Z] [ERROR] [PROCESS] Unhandled rejection — Cannot read properties of undefined (reading 'sessionInfo')
+[2026-07-28T20:21:02.038Z] [ERROR] [PROCESS] Unhandled rejection — Cannot read properties of undefined (reading 'sessionInfo')
+[2026-07-28T20:21:40.007Z] [ERROR] [PROCESS] Unhandled rejection — Cannot read properties of undefined (reading 'sessionInfo')
+[2026-07-28T20:21:55.008Z] [ERROR] [PROCESS] Unhandled rejection — Cannot read properties of undefined (reading 'emit')
+[2026-07-28T20:22:33.859Z] [ERROR] [PROCESS] Unhandled rejection — Cannot read properties of undefined (reading 'sessionInfo')
+[2026-07-28T20:23:08.485Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T20:23:08.720Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T20:23:08.720Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T20:23:08.726Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T20:23:08.995Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T20:23:08.996Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T20:23:08.997Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T20:23:09.416Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T20:24:20.457Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T20:24:54.067Z] [INFO] [CMD] hecum in #soon → .voicemaster
+[2026-07-28T20:28:19.366Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:28:29.916Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:28:34.073Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:28:41.479Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:29:06.324Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:29:11.600Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:30:22.048Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:37:07.006Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:37:11.683Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:42:00.350Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:42:05.835Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:43:37.417Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:43:47.499Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:44:13.244Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:44:17.027Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T20:48:16.530Z] [INFO] [CMD] hecum in #soon → .purge
+[2026-07-28T20:48:21.743Z] [INFO] [CMD] hecum in #soon → .purge
+[2026-07-28T20:50:28.929Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T20:50:51.133Z] [INFO] [CMD] hecum in #soon → .say
+[2026-07-28T20:51:35.641Z] [INFO] [CMD] hecum in #soon → .boosterole
+[2026-07-28T20:51:38.838Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T20:51:46.892Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T21:06:08.693Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T21:06:08.948Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T21:06:08.949Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T21:06:08.954Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T21:06:09.198Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T21:06:09.200Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T21:06:09.203Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T21:06:09.685Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T21:07:50.682Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T21:07:50.822Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T21:07:50.822Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T21:07:50.829Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T21:07:51.192Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T21:07:51.193Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T21:07:51.197Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T21:07:51.744Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T21:08:05.411Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T21:08:11.088Z] [INFO] [CMD] hecum in #soon → .welcome
+[2026-07-28T21:08:26.354Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T21:08:46.146Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T21:08:51.908Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T21:08:59.404Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T21:10:47.739Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T21:11:52.203Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T21:12:13.647Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:13:07.847Z] [INFO] [CMD] hecum in #soon → .level
+[2026-07-28T21:13:28.813Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T21:13:50.800Z] [INFO] [CMD] hecum in #soon → .lvls
+[2026-07-28T21:13:56.037Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:18:06.914Z] [INFO] [CMD] hecum in #soon → .boost
+[2026-07-28T21:18:17.818Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T21:21:50.513Z] [INFO] [CMD] hecum in #soon → .boosts
+[2026-07-28T21:21:57.566Z] [INFO] [CMD] hecum in #soon → .boosts
+[2026-07-28T21:22:30.613Z] [INFO] [CMD] hecum in #soon → .boosts
+[2026-07-28T21:22:53.531Z] [INFO] [CMD] hecum in #soon → .boosts
+[2026-07-28T21:23:10.553Z] [INFO] [CMD] hecum in #soon → .boosts
+[2026-07-28T21:23:14.258Z] [INFO] [CMD] hecum in #soon → .boosts
+[2026-07-28T21:25:00.883Z] [INFO] [CMD] hecum in #soon → .boosts
+[2026-07-28T21:25:04.212Z] [INFO] [CMD] hecum in #soon → .boosts
+[2026-07-28T21:25:37.479Z] [INFO] [CMD] hecum in #soon → .boosts
+[2026-07-28T21:26:33.126Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T21:26:45.611Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T21:29:46.115Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:29:52.693Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:30:10.858Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:30:22.410Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:31:41.516Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:31:45.880Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:31:58.454Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:32:26.262Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:32:32.863Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:32:58.749Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:33:02.259Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:33:07.764Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:33:33.432Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:33:41.415Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:33:49.563Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:34:16.402Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:34:43.428Z] [INFO] [CMD] hecum in #soon → .br
+[2026-07-28T21:36:39.372Z] [INFO] [CMD] hecum in #soon → .level
+[2026-07-28T21:36:41.566Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:36:44.028Z] [INFO] [CMD] hecum in #soon → .level
+[2026-07-28T21:36:46.737Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:36:48.793Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:37:01.666Z] [INFO] [CMD] hecum in #soon → .level
+[2026-07-28T21:37:04.104Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:37:09.220Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T21:37:14.100Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:37:32.940Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T21:37:47.360Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T21:37:57.274Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:38:20.487Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:38:25.633Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:49:52.399Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:49:57.855Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:50:02.609Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:50:22.328Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:50:27.380Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:50:31.642Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:50:58.037Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:51:30.339Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:51:32.450Z] [INFO] [CMD] hecum in #soon → .level
+[2026-07-28T21:51:34.603Z] [INFO] [CMD] hecum in #soon → .level
+[2026-07-28T21:51:38.949Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:51:43.957Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:52:25.557Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T21:52:25.560Z] [ERROR] [CLIENT] Discord client error — Cannot read properties of undefined (reading 'members')
+[2026-07-28T21:55:03.818Z] [INFO] [CMD] hecum in #soon → .autorole
+[2026-07-28T21:55:10.837Z] [INFO] [CMD] hecum in #soon → .autorole
+[2026-07-28T21:56:23.554Z] [INFO] [CMD] hecum in #soon → .guessword
+[2026-07-28T21:57:12.818Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T21:58:06.887Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T21:58:41.029Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T21:59:42.077Z] [INFO] [CMD] hecum in #soon → .giveaway
+[2026-07-28T21:59:52.444Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T22:00:06.993Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T22:00:17.668Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T22:01:10.281Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T22:03:32.948Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T22:04:15.807Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T22:04:57.562Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T22:07:51.793Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T22:09:06.550Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:09:06.826Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:09:06.826Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:09:06.837Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:09:07.261Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:09:07.262Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:09:07.263Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:09:07.678Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:09:10.929Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T22:09:16.884Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T22:13:16.359Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:13:16.535Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:13:16.536Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:13:16.542Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:13:16.799Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:13:16.800Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:13:16.802Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:13:16.812Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:14:10.193Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:14:10.508Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:14:10.509Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:14:10.515Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:14:10.692Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:14:10.692Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:14:10.695Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:14:10.697Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:14:43.264Z] [INFO] [CMD] hecum in #soon → .voicemaster
+[2026-07-28T22:14:44.024Z] [ERROR] [VM] Setup error — Invalid string length
+[2026-07-28T22:18:09.081Z] [INFO] [CMD] hecum in #soon → .voicemaster
+[2026-07-28T22:18:32.906Z] [INFO] [CMD] hecum in #soon → .voicemaster
+[2026-07-28T22:18:33.421Z] [ERROR] [VM] Setup error — Invalid string length
+[2026-07-28T22:20:04.753Z] [INFO] [CMD] hecum in #soon → .voicemaster
+[2026-07-28T22:20:05.471Z] [ERROR] [VM] Setup error — Invalid string length
+[2026-07-28T22:21:40.414Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:21:40.773Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:21:40.774Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:21:40.782Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:21:40.966Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:21:40.967Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:21:40.970Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:21:41.414Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:21:58.561Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:21:58.783Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:21:58.784Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:21:58.792Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:21:59.050Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:21:59.051Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:21:59.054Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:21:59.672Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:22:36.583Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:22:36.880Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:22:36.880Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:22:36.895Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:22:37.142Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:22:37.143Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:22:37.145Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:22:37.502Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:23:17.581Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:23:17.861Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:23:17.862Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:23:17.878Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:23:18.150Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:23:18.151Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:23:18.155Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:23:18.541Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:25:16.893Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:25:16.986Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:25:16.986Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:25:16.992Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:25:17.236Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:25:17.238Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:25:17.240Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:25:17.656Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:29:41.387Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T22:29:45.347Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T22:29:52.268Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T22:30:04.168Z] [INFO] [CMD] hecum in #soon → .vc
+[2026-07-28T22:30:09.998Z] [INFO] [CMD] hecum in #soon → .vc
+[2026-07-28T22:31:40.363Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:31:40.555Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:31:40.555Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:31:40.562Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:31:40.897Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:31:40.898Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:31:40.901Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:31:40.903Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:31:48.397Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:31:48.632Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:31:48.632Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:31:48.638Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:31:48.904Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:31:48.905Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:31:48.906Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:31:48.908Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:33:27.880Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:33:28.090Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:33:28.091Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:33:28.097Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:33:28.318Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:33:28.319Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:33:28.331Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:33:28.818Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:34:21.751Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T22:34:21.897Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T22:34:21.898Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T22:34:21.903Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T22:34:22.089Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T22:34:22.090Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T22:34:22.092Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T22:34:22.538Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T22:38:53.644Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T22:39:03.073Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T22:39:11.907Z] [INFO] [CMD] hecum in #soon → .levels
+[2026-07-28T22:42:15.915Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T22:43:11.721Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T22:43:30.460Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T22:43:42.077Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T22:44:13.682Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T22:44:37.248Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T22:45:06.253Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T22:46:00.151Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T22:46:20.921Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T22:46:58.189Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T22:51:18.509Z] [INFO] [CMD] hecum in #soon → .steal
+[2026-07-28T22:51:38.777Z] [INFO] [CMD] hecum in #soon → .steal
+[2026-07-28T23:02:39.225Z] [INFO] [CMD] hecum in #soon → .setupmute
+[2026-07-28T23:02:53.291Z] [INFO] [CMD] hecum in #soon → .setupmute
+[2026-07-28T23:05:33.838Z] [INFO] [CMD] hecum in #soon → .help
+[2026-07-28T23:19:11.970Z] [INFO] [BOT] Logged in as duck#7508
+[2026-07-28T23:19:12.171Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-28T23:19:12.171Z] [INFO] [STREAK] Next new day: 2026-07-29T22:00:00.000Z
+[2026-07-28T23:19:12.177Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-28T23:19:12.581Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-28T23:19:12.582Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-28T23:19:12.585Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-28T23:19:12.993Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-28T23:19:17.346Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T23:20:15.030Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T23:24:41.584Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T23:24:49.727Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T23:24:53.990Z] [INFO] [CMD] hecum in #soon → .giveaways
+[2026-07-28T23:42:04.331Z] [INFO] [CMD] hecum in #soon → .reactionrole
+[2026-07-28T23:43:56.765Z] [INFO] [CMD] hecum in #soon → .ce
+[2026-07-28T23:45:22.008Z] [INFO] [CMD] hecum in #soon → .buttonrole
+[2026-07-28T23:45:49.263Z] [INFO] [CMD] hecum in #soon → .buttonrole
+[2026-07-28T23:48:06.114Z] [INFO] [CMD] hecum in #soon → .react

@@ -1,0 +1,122 @@
+[2026-08-11T21:20:09.670Z] [INFO] [MUSIC] Music manager initialized
+[2026-08-11T21:20:10.447Z] [INFO] [BOT] Logged in as dock#7508
+[2026-08-11T21:20:10.848Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-08-11T21:20:11.670Z] [INFO] [BLACKTEA] Initialized with 316 valid sequences
+[2026-08-11T21:20:11.671Z] [INFO] [STREAK] Next new day: 2026-08-12T22:00:00.000Z
+[2026-08-11T21:20:11.705Z] [INFO] [SLASH] Registering 90 slash commands globally...
+[2026-08-11T21:20:12.053Z] [INFO] [SLASH] Registered 90 slash commands successfully.
+[2026-08-11T21:20:12.511Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-08-11T21:20:12.523Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-08-11T21:20:13.032Z] [INFO] [LAVALINK] Node MainNode ready
+[2026-08-11T21:20:14.074Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-08-11T21:20:25.021Z] [INFO] [CMD] lequm in #soon → .play
+[2026-08-11T21:20:26.467Z] [INFO] [MUSIC] Started playing in guild 1528875292016251040
+[2026-08-11T21:20:26.511Z] [WARN] [MUSIC] Player closed in guild 1528875292016251040:
+[2026-08-11T21:20:53.871Z] [INFO] [CMD] lequm in #soon → .disconnect
+[2026-08-11T21:20:54.081Z] [WARN] [MUSIC] Player closed in guild 1528875292016251040:
+[2026-08-11T21:20:58.727Z] [INFO] [CMD] lequm in #soon → .play
+[2026-08-11T21:21:00.078Z] [INFO] [MUSIC] Started playing in guild 1528875292016251040
+[2026-08-11T21:21:04.236Z] [INFO] [CMD] lequm in #soon → .queue
+[2026-08-11T21:21:05.922Z] [INFO] [CMD] lequm in #soon → .volume
+[2026-08-11T21:21:09.224Z] [INFO] [CMD] lequm in #soon → .volume
+[2026-08-11T21:21:09.226Z] [ERROR] [MUSIC] Command volume failed: — player.setVolume is not a function
+[2026-08-11T21:21:23.695Z] [INFO] [CMD] lequm in #soon → .music
+[2026-08-11T21:21:30.240Z] [INFO] [CMD] lequm in #soon → .pause
+[2026-08-11T21:21:36.010Z] [INFO] [CMD] proxyrot in #soon → .disconnect
+[2026-08-11T21:21:36.162Z] [WARN] [MUSIC] Player closed in guild 1528875292016251040:
+[2026-08-11T21:23:30.188Z] [INFO] [CMD] lequm in #soon → .autoresponder
+[2026-08-11T21:28:07.682Z] [INFO] [MUSIC] Music manager initialized
+[2026-08-11T21:28:08.561Z] [INFO] [BOT] Logged in as dock#7508
+[2026-08-11T21:28:08.750Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-08-11T21:28:09.615Z] [INFO] [BLACKTEA] Initialized with 316 valid sequences
+[2026-08-11T21:28:09.617Z] [INFO] [STREAK] Next new day: 2026-08-12T22:00:00.000Z
+[2026-08-11T21:28:09.635Z] [INFO] [SLASH] Registering 90 slash commands globally...
+[2026-08-11T21:28:09.894Z] [INFO] [SLASH] Registered 90 slash commands successfully.
+[2026-08-11T21:28:09.897Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-08-11T21:28:09.916Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-08-11T21:28:10.820Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-08-11T21:28:10.901Z] [INFO] [LAVALINK] Node MainNode ready
+[2026-08-11T21:28:43.400Z] [INFO] [MUSIC] Music manager initialized
+[2026-08-11T21:28:44.129Z] [INFO] [BOT] Logged in as dock#7508
+[2026-08-11T21:28:44.298Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-08-11T21:28:45.207Z] [INFO] [BLACKTEA] Initialized with 316 valid sequences
+[2026-08-11T21:28:45.208Z] [INFO] [STREAK] Next new day: 2026-08-12T22:00:00.000Z
+[2026-08-11T21:28:45.224Z] [INFO] [SLASH] Registering 90 slash commands globally...
+[2026-08-11T21:28:45.584Z] [INFO] [LAVALINK] Node MainNode ready
+[2026-08-11T21:28:45.603Z] [INFO] [SLASH] Registered 90 slash commands successfully.
+[2026-08-11T21:28:45.606Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-08-11T21:28:45.620Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-08-11T21:28:46.186Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-08-11T21:29:09.587Z] [INFO] [MUSIC] Music manager initialized
+[2026-08-11T21:29:10.212Z] [INFO] [BOT] Logged in as dock#7508
+[2026-08-11T21:29:10.639Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-08-11T21:29:11.715Z] [INFO] [BLACKTEA] Initialized with 316 valid sequences
+[2026-08-11T21:29:11.717Z] [INFO] [STREAK] Next new day: 2026-08-12T22:00:00.000Z
+[2026-08-11T21:29:11.746Z] [INFO] [SLASH] Registering 90 slash commands globally...
+[2026-08-11T21:29:12.073Z] [INFO] [SLASH] Registered 90 slash commands successfully.
+[2026-08-11T21:29:12.075Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-08-11T21:29:12.137Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-08-11T21:29:12.146Z] [INFO] [LAVALINK] Node MainNode ready
+[2026-08-11T21:29:12.747Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-08-11T21:30:30.166Z] [INFO] [MUSIC] Music manager initialized
+[2026-08-11T21:30:31.128Z] [INFO] [BOT] Logged in as dock#7508
+[2026-08-11T21:30:31.440Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-08-11T21:30:32.277Z] [INFO] [BLACKTEA] Initialized with 316 valid sequences
+[2026-08-11T21:30:32.278Z] [INFO] [STREAK] Next new day: 2026-08-12T22:00:00.000Z
+[2026-08-11T21:30:32.298Z] [INFO] [SLASH] Registering 90 slash commands globally...
+[2026-08-11T21:30:32.647Z] [INFO] [LAVALINK] Node MainNode ready
+[2026-08-11T21:30:32.878Z] [INFO] [SLASH] Registered 90 slash commands successfully.
+[2026-08-11T21:30:32.880Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-08-11T21:30:32.886Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-08-11T21:30:33.577Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-08-11T21:30:35.871Z] [INFO] [CMD] lequm in #soon → .autoresponder
+[2026-08-11T21:31:32.088Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T21:32:24.269Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T21:32:56.723Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T21:33:17.001Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T21:35:38.089Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T21:37:01.311Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T21:38:38.411Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T21:39:29.030Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T21:41:37.405Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T21:55:36.082Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T21:55:58.678Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T22:00:50.992Z] [INFO] [CMD] lequm in #soon → .cmd
+[2026-08-11T22:00:52.885Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T22:02:50.198Z] [INFO] [CMD] proxyrot in #soon → .help
+[2026-08-11T22:12:22.184Z] [INFO] [MUSIC] Music manager initialized
+[2026-08-11T22:12:22.953Z] [INFO] [BOT] Logged in as dock#7508
+[2026-08-11T22:12:23.271Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-08-11T22:12:24.300Z] [INFO] [BLACKTEA] Initialized with 316 valid sequences
+[2026-08-11T22:12:24.301Z] [INFO] [STREAK] Next new day: 2026-08-12T22:00:00.000Z
+[2026-08-11T22:12:24.333Z] [INFO] [SLASH] Registering 90 slash commands globally...
+[2026-08-11T22:12:25.011Z] [INFO] [SLASH] Registered 90 slash commands successfully.
+[2026-08-11T22:12:25.015Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-08-11T22:12:25.020Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-08-11T22:12:25.029Z] [INFO] [LAVALINK] Node MainNode ready
+[2026-08-11T22:12:25.580Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-08-11T22:14:11.344Z] [INFO] [MUSIC] Music manager initialized
+[2026-08-11T22:14:12.026Z] [INFO] [BOT] Logged in as dock#7508
+[2026-08-11T22:14:12.251Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-08-11T22:14:13.000Z] [INFO] [BLACKTEA] Initialized with 316 valid sequences
+[2026-08-11T22:14:13.000Z] [INFO] [STREAK] Next new day: 2026-08-12T22:00:00.000Z
+[2026-08-11T22:14:13.023Z] [INFO] [SLASH] Registering 90 slash commands globally...
+[2026-08-11T22:14:13.372Z] [INFO] [SLASH] Registered 90 slash commands successfully.
+[2026-08-11T22:14:13.376Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-08-11T22:14:13.381Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-08-11T22:14:13.413Z] [INFO] [LAVALINK] Node MainNode ready
+[2026-08-11T22:14:13.976Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-08-11T22:14:27.822Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T22:14:45.779Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T22:15:12.216Z] [INFO] [CMD] lequm in #soon → .help\
+[2026-08-11T22:15:15.021Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T22:16:04.869Z] [INFO] [CMD] proxyrot in #soon → .help
+[2026-08-11T22:16:48.634Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T22:17:29.886Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T22:18:41.062Z] [INFO] [CMD] lequm in #soon → .help
+[2026-08-11T22:20:16.796Z] [INFO] [CMD] lequm in #soon → .casino
+[2026-08-11T22:20:20.482Z] [INFO] [CMD] lequm in #soon → .bal
+[2026-08-11T22:20:26.810Z] [INFO] [CMD] lequm in #soon → .bal
+[2026-08-11T22:20:30.949Z] [INFO] [CMD] lequm in #soon → .casinop
+[2026-08-11T22:20:35.300Z] [INFO] [CMD] proxyrot in #soon → .casino
+[2026-08-11T22:20:44.213Z] [INFO] [CMD] lequm in #soon → .nuke

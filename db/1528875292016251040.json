@@ -1,0 +1,3173 @@
+{
+  "temproles": [],
+  "reminders": [],
+  "_initialized": true,
+  "settings": {
+    "prefix": ","
+  },
+  "modules": {
+    "filters": true,
+    "roleplay": false
+  },
+  "staffRoles": [
+    "1528875292213641258",
+    "1528875292213641257",
+    "1528875292100132964",
+    "1528875292213641256"
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "type": "lock",
+      "targetId": "1528875294419583076",
+      "executorId": "1410668779347771402",
+      "reason": "Channel locked",
+      "timestamp": 1784589645040,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 2,
+      "type": "lock",
+      "targetId": "1528875294419583077",
+      "executorId": "1410668779347771402",
+      "reason": "Channel locked",
+      "timestamp": 1784589938869,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 3,
+      "type": "imute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "Image mute",
+      "timestamp": 1785503992879,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 4,
+      "type": "imute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "Image mute",
+      "timestamp": 1785503998162,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 5,
+      "type": "kick",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "No reason provided",
+      "timestamp": 1785507324008,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 6,
+      "type": "imute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "Image mute",
+      "timestamp": 1785518108402,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 7,
+      "type": "rmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "Reaction mute",
+      "timestamp": 1785518135307,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 8,
+      "type": "imute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "10s",
+      "timestamp": 1785518263320,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 9,
+      "type": "mute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "No reason provided",
+      "timestamp": 1785523566578,
+      "guildId": "1528875292016251040",
+      "duration": "10s",
+      "expires": 1785523576577,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 10,
+      "type": "unmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (time expired)",
+      "timestamp": 1785523576734,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 11,
+      "type": "mute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "bad boy",
+      "timestamp": 1785523665980,
+      "guildId": "1528875292016251040",
+      "duration": "20s",
+      "expires": 1785523685980,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 12,
+      "type": "unmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (time expired)",
+      "timestamp": 1785523686130,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 13,
+      "type": "mute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "bad boy",
+      "timestamp": 1785523712087,
+      "guildId": "1528875292016251040",
+      "duration": "20s",
+      "expires": 1785523732086,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 14,
+      "type": "unmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (time expired)",
+      "timestamp": 1785523732339,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 15,
+      "type": "mute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "bad",
+      "timestamp": 1785526331252,
+      "guildId": "1528875292016251040",
+      "duration": "30s",
+      "expires": 1785526361252,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 16,
+      "type": "unmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (time expired)",
+      "timestamp": 1785526361401,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 17,
+      "type": "imute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "idk",
+      "timestamp": 1785526392563,
+      "guildId": "1528875292016251040",
+      "duration": "30s",
+      "expires": 1785526422563,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 18,
+      "type": "rmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "idkk",
+      "timestamp": 1785526403735,
+      "guildId": "1528875292016251040",
+      "duration": "30s",
+      "expires": 1785526433735,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 19,
+      "type": "iunmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (image mute time expired)",
+      "timestamp": 1785526422730,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 20,
+      "type": "runmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (reaction mute time expired)",
+      "timestamp": 1785526433886,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 21,
+      "type": "mute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "No reason provided",
+      "timestamp": 1785526442874,
+      "guildId": "1528875292016251040",
+      "duration": "1d",
+      "expires": 1785612842874,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 22,
+      "type": "warn",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "test",
+      "timestamp": 1785527376309,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "pardoned",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 23,
+      "type": "warn",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "test",
+      "timestamp": 1785527558595,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "pardoned",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 24,
+      "type": "warn",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "DONT",
+      "timestamp": 1785527569911,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "pardoned",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 25,
+      "type": "warn",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "test",
+      "timestamp": 1785528476829,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "pardoned",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 26,
+      "type": "mute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "No reason provided",
+      "timestamp": 1785528498833,
+      "guildId": "1528875292016251040",
+      "duration": "30s",
+      "expires": 1785528528833,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 27,
+      "type": "unmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (time expired)",
+      "timestamp": 1785528529001,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 28,
+      "type": "imute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "Image mute",
+      "timestamp": 1785528569397,
+      "guildId": "1528875292016251040",
+      "duration": "10s",
+      "expires": 1785528579397,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 29,
+      "type": "rmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "Reaction mute",
+      "timestamp": 1785528576525,
+      "guildId": "1528875292016251040",
+      "duration": "10s",
+      "expires": 1785528586525,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 30,
+      "type": "iunmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (image mute time expired)",
+      "timestamp": 1785528579578,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 31,
+      "type": "runmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (reaction mute time expired)",
+      "timestamp": 1785528586686,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 32,
+      "type": "rmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "Reaction mute",
+      "timestamp": 1785528591982,
+      "guildId": "1528875292016251040",
+      "duration": "Permanent",
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 33,
+      "type": "runmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "Reaction mute removed",
+      "timestamp": 1785528620152,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 34,
+      "type": "warn",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "test2",
+      "timestamp": 1785531987284,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "pardoned",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 35,
+      "type": "warn",
+      "targetId": "1278713831345881170",
+      "executorId": "1410668779347771402",
+      "reason": "hehe",
+      "timestamp": 1785532277572,
+      "guildId": "1528875292016251040",
+      "duration": "20d",
+      "expires": 1787260277572,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "pardoned",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 36,
+      "type": "kick",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "bad boy",
+      "timestamp": 1785595130315,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 37,
+      "type": "kick",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "test",
+      "timestamp": 1785604278438,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 38,
+      "type": "ban",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "also test",
+      "timestamp": 1785604684561,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 39,
+      "type": "unban",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "No reason provided",
+      "timestamp": 1785604851199,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 40,
+      "type": "unmute",
+      "targetId": "1278713831345881170",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (time expired)",
+      "timestamp": 1785612842993,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 41,
+      "type": "unlock",
+      "targetId": "1530947077788536943",
+      "executorId": "1278713831345881170",
+      "reason": "Channel unlocked",
+      "timestamp": 1785796493236,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 42,
+      "type": "mute",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "e",
+      "timestamp": 1786027795165,
+      "guildId": "1528875292016251040",
+      "duration": "10s",
+      "expires": 1786027805165,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 43,
+      "type": "unmute",
+      "targetId": "1408853277470097568",
+      "executorId": "1528881379868152020",
+      "reason": "Auto-unmuted (time expired)",
+      "timestamp": 1786027805342,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 44,
+      "type": "role",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786028055549,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 45,
+      "type": "role",
+      "targetId": "1410668779347771402",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786046839657,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 46,
+      "type": "role",
+      "targetId": "1410668779347771402",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786046852869,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 47,
+      "type": "role",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786049441951,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 48,
+      "type": "role",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "Removed <@&1528875292213641258>",
+      "timestamp": 1786049447785,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 49,
+      "type": "role",
+      "targetId": "1371931756692897893",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786129691979,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 50,
+      "type": "unmute",
+      "targetId": "1528881379868152020",
+      "executorId": "1278713831345881170",
+      "reason": "Unmuted by staff",
+      "timestamp": 1786129718395,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 51,
+      "type": "nuke",
+      "targetId": "1535364603955912835",
+      "executorId": "1278713831345881170",
+      "reason": "No reason provided",
+      "timestamp": 1786129847713,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 52,
+      "type": "role",
+      "targetId": "1371931756692897893",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786220686217,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 53,
+      "type": "role",
+      "targetId": "1371931756692897893",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786221425772,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 54,
+      "type": "role",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786225332750,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 55,
+      "type": "role",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786225419710,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 56,
+      "type": "role",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641257>",
+      "timestamp": 1786225425781,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 57,
+      "type": "role",
+      "targetId": "1371931756692897893",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786225816646,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 58,
+      "type": "role",
+      "targetId": "1410668779347771402",
+      "executorId": "1278713831345881170",
+      "reason": "Removed <@&1528875292213641258>",
+      "timestamp": 1786228243870,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 59,
+      "type": "role",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "Added <@&1528875292213641258>",
+      "timestamp": 1786228279037,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 60,
+      "type": "role",
+      "targetId": "1408853277470097568",
+      "executorId": "1278713831345881170",
+      "reason": "Removed <@&1528875292213641258>",
+      "timestamp": 1786228290188,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 61,
+      "type": "nuke",
+      "targetId": "1535803605100138598",
+      "executorId": "1278713831345881170",
+      "reason": "No reason provided",
+      "timestamp": 1786234513670,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 62,
+      "type": "nuke",
+      "targetId": "1535806454588510268",
+      "executorId": "1278713831345881170",
+      "reason": "No reason provided",
+      "timestamp": 1786235193031,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 63,
+      "type": "nuke",
+      "targetId": "1537214590843359293",
+      "executorId": "1410668779347771402",
+      "reason": "e",
+      "timestamp": 1786570918872,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 64,
+      "type": "lock",
+      "targetId": "1537214590843359293",
+      "executorId": "1410668779347771402",
+      "reason": "Channel locked",
+      "timestamp": 1786570930395,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 65,
+      "type": "unlock",
+      "targetId": "1537214590843359293",
+      "executorId": "1410668779347771402",
+      "reason": "Channel unlocked",
+      "timestamp": 1786570934200,
+      "guildId": "1528875292016251040",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    }
+  ],
+  "notes": {},
+  "voiceMaster": {
+    "categoryId": "1531788362183082076",
+    "interfaceChannelId": "1531788363580051587",
+    "joinChannelId": "1531788364628627616",
+    "interfaceMessageId": "1531791959201546445"
+  },
+  "welcomeConfig": {
+    "message": "{embed}$v{message: {user.mention}}$v{author: welcome, {user}! && <:moon:1533126502080843977> }$v{description: <:invisible:1531760713453015081><:whitestar:1533126538315304960> follow [law](https://discord.com/channels/1528875292016251040/1528875293895299264)\n<:invisible:1531760713453015081><:invisible:1531760713453015081><:whitestar:1533126538315304960> boost / invite friends \n<:invisible:1531760713453015081><:invisible:1531760713453015081><:invisible:1531760713453015081><:whitestar:1533126538315304960> get your [roles](https://discord.com/channels/1528875292016251040/1529515361295401090) }$v{thumbnail: {user.avatar}}$v{button: https://discord.com/channels/1528875292016251040/1531788364628627616 && call&& <:moon:1533126502080843977> && enabled}$v{button: && {guild.count} && <:w_members:1531761274583515176> && enabled}",
+    "channelId": "1529164919604514826",
+    "enabled": true
+  },
+  "levelsConfig": {
+    "xpRate": 5,
+    "enabled": true
+  },
+  "boostConfig": {
+    "message": "{embed}$v{message: {user.mention} *!!*}$v{color: #010101}$v{title: ty for boosting *!* <:boost:1531260159387631777> }$v{description: ** you have unlocked...** \n> VC server mute\n> pic & snipe perms\n> 2x Casino Money\n> __custom booster role__ \n**use `,help br` for custom role**\n-# perks removed after unboosting\n}$v{thumbnail: {user.avatar}}",
+    "enabled": true,
+    "channelId": "1529164919604514826"
+  },
+  "boosterRoleConfig": {
+    "enabled": true,
+    "shareMax": 1,
+    "baseRoleId": "1531775534529253647",
+    "filterWords": [
+      "own"
+    ],
+    "sharedMax": 1
+  },
+  "boosterRoles": {
+    "1410668779347771402": {
+      "roleId": "1531775729044426844",
+      "sharedWith": [
+        "1371931756692897893"
+      ]
+    },
+    "1371931756692897893": {
+      "roleId": "1535359509760057504",
+      "sharedWith": []
+    }
+  },
+  "users": {
+    "1410668779347771402": {
+      "xp": 16375,
+      "level": 7,
+      "balance": 0,
+      "bank": 0,
+      "warnings": [],
+      "inventory": [],
+      "lastDaily": null,
+      "lastWeekly": null,
+      "lastWork": null,
+      "lastCrime": null
+    },
+    "1278713831345881170": {
+      "xp": 32926,
+      "level": 9,
+      "balance": 0,
+      "bank": 0,
+      "warnings": [],
+      "inventory": [],
+      "lastDaily": null,
+      "lastWeekly": null,
+      "lastWork": null,
+      "lastCrime": null,
+      "tttLosses": 1
+    },
+    "1371931756692897893": {
+      "xp": 13064,
+      "level": 6,
+      "balance": 0,
+      "bank": 0,
+      "warnings": [],
+      "inventory": [],
+      "lastDaily": null,
+      "lastWeekly": null,
+      "lastWork": null,
+      "lastCrime": null,
+      "tttWins": 1
+    },
+    "1408853277470097568": {
+      "xp": 9508,
+      "level": 6,
+      "balance": 0,
+      "bank": 0,
+      "warnings": [],
+      "inventory": [],
+      "lastDaily": null,
+      "lastWeekly": null,
+      "lastWork": null,
+      "lastCrime": null
+    },
+    "1508447915352391751": {
+      "xp": 244,
+      "level": 1,
+      "balance": 0,
+      "bank": 0,
+      "warnings": [],
+      "inventory": [],
+      "lastDaily": null,
+      "lastWeekly": null,
+      "lastWork": null,
+      "lastCrime": null
+    },
+    "820324513488699404": {
+      "xp": 101,
+      "level": 1,
+      "balance": 0,
+      "bank": 0,
+      "warnings": [],
+      "inventory": [],
+      "lastDaily": null,
+      "lastWeekly": null,
+      "lastWork": null,
+      "lastCrime": null
+    },
+    "1534648427135369226": {
+      "xp": 63,
+      "level": 0,
+      "balance": 0,
+      "bank": 0,
+      "warnings": [],
+      "inventory": [],
+      "lastDaily": null,
+      "lastWeekly": null,
+      "lastWork": null,
+      "lastCrime": null
+    }
+  },
+  "autoRoles": [
+    "1528875292100132957"
+  ],
+  "giveaways": {
+    "1531782978257027256": {
+      "channelId": "1528875294952521975",
+      "prize": "10$ Nitro",
+      "winnersCount": 2,
+      "hostId": "1278713831345881170",
+      "endAt": 1786485521030,
+      "entries": [
+        "1410668779347771402"
+      ],
+      "ended": true,
+      "winners": [
+        "1410668779347771402"
+      ],
+      "description": "DONT BE GAY",
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": "https://cdn.discordapp.com/attachments/1528875294952521975/1531784380542881802/IMG_2880.jpg?ex=6a6a78df&is=6a69275f&hm=0ef972e459bd20256885c5d2b71452e4076c6bae9d622d1603a91ebb46dfb9f2&",
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null
+    },
+    "1531803504837136567": {
+      "channelId": "1528875294952521975",
+      "prize": "20$ nitro",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "endAt": 1785280855031,
+      "entries": [
+        "1410668779347771402"
+      ],
+      "ended": true,
+      "winners": [
+        "1410668779347771402"
+      ],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null
+    },
+    "1531979894190379144": {
+      "channelId": "1531788363580051587",
+      "prize": "10$ ROBUX",
+      "winnersCount": 1,
+      "hostId": "1278713831345881170",
+      "endAt": 1786186869552,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": "We will reroll winner if he didnt respond,",
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 200,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 3600,
+      "gwMsgCounts": {
+        "1410668779347771402": 2
+      },
+      "gwVoiceSecs": {}
+    },
+    "1531980452397846599": {
+      "channelId": "1531788363580051587",
+      "prize": "10$ ROBUX",
+      "winnersCount": 1,
+      "hostId": "1278713831345881170",
+      "endAt": 1786187002352,
+      "entries": [
+        "1410668779347771402"
+      ],
+      "ended": true,
+      "winners": [
+        "1410668779347771402"
+      ],
+      "description": "We will reroll winner if he didnt respond,",
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 3,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 60,
+      "gwMsgCounts": {
+        "1410668779347771402": 4
+      },
+      "gwVoiceSecs": {
+        "1410668779347771402": 73
+      }
+    },
+    "1531982848477761657": {
+      "channelId": "1531788363580051587",
+      "prize": "NITRO",
+      "winnersCount": 2,
+      "hostId": "1278713831345881170",
+      "endAt": 1785755573838,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": "we will reroll winner if he didnt respond, required_voice 20s,",
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {}
+    },
+    "1531983732238454896": {
+      "channelId": "1531788363580051587",
+      "prize": "Nitro",
+      "winnersCount": 1,
+      "hostId": "1278713831345881170",
+      "endAt": 1785755784560,
+      "entries": [
+        "1410668779347771402"
+      ],
+      "ended": true,
+      "winners": [],
+      "description": "hiii ,",
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 20,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {
+        "1410668779347771402": 37
+      },
+      "cancelled": true
+    },
+    "1531984290659696881": {
+      "channelId": "1531788363580051587",
+      "prize": "Nitro",
+      "winnersCount": 1,
+      "hostId": "1278713831345881170",
+      "endAt": 1785755917694,
+      "entries": [],
+      "ended": false,
+      "winners": [],
+      "description": "hiii",
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 20,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {
+        "1410668779347771402": 5256,
+        "1371931756692897893": 3394,
+        "820324513488699404": 61,
+        "1420111568300937351": 1463,
+        "1431621341760458813": 60,
+        "1278713831345881170": 66,
+        "1408853277470097568": 166
+      }
+    },
+    "1532867475144708209": {
+      "channelId": "1528875294952521975",
+      "prize": "nitro",
+      "winnersCount": 1,
+      "hostId": "1278713831345881170",
+      "startAt": 1785534485540,
+      "endAt": 1785534545289,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 10,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {}
+    },
+    "1532868089333682207": {
+      "channelId": "1528875294952521975",
+      "prize": "nitro",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785534631878,
+      "endAt": 1785534691729,
+      "entries": [
+        "1410668779347771402"
+      ],
+      "ended": true,
+      "winners": [
+        "1410668779347771402"
+      ],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 10,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {}
+    },
+    "1532872313156927620": {
+      "channelId": "1528875294952521975",
+      "prize": "nitro",
+      "winnersCount": 1,
+      "hostId": "1278713831345881170",
+      "startAt": 1785535638930,
+      "endAt": 1785535818710,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": "idk",
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 10,
+      "gwMsgCounts": {
+        "1410668779347771402": 7
+      },
+      "gwVoiceSecs": {
+        "1410668779347771402": 11
+      }
+    },
+    "1532873407702499469": {
+      "channelId": "1528875294952521975",
+      "prize": "nitro",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785535899908,
+      "endAt": 1785536499667,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 6,
+      "gwMsgChannelId": "1528875294952521975",
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {
+        "1410668779347771402": 7
+      },
+      "gwVoiceSecs": {}
+    },
+    "1532881705969389744": {
+      "channelId": "1528875294952521975",
+      "prize": "BOBUX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785537878421,
+      "endAt": 1785537998169,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {}
+    },
+    "1532885793041940631": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785538852783,
+      "endAt": 1785538972575,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {
+        "1410668779347771402": 3
+      },
+      "gwVoiceSecs": {
+        "1410668779347771402": 3
+      }
+    },
+    "1532885921706283089": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785538883484,
+      "endAt": 1785539003249,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {
+        "1410668779347771402": 2
+      },
+      "gwVoiceSecs": {
+        "1410668779347771402": 3
+      }
+    },
+    "1532886674718326805": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785539063012,
+      "endAt": 1785539182761,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {
+        "1410668779347771402": 1
+      },
+      "gwVoiceSecs": {}
+    },
+    "1532887158837350451": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785539178396,
+      "endAt": 1785539298222,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {}
+    },
+    "1533048025667076128": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785577531813,
+      "endAt": 1785577651813,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {
+        "1410668779347771402": 6
+      },
+      "gwVoiceSecs": {},
+      "messageId": "1533048025667076128"
+    },
+    "1533050046772154429": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785578013651,
+      "endAt": 1785578033651,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1533050046772154429"
+    },
+    "1533050854557618297": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785578206320,
+      "endAt": 1785578226320,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {
+        "1410668779347771402": 6
+      },
+      "gwVoiceSecs": {},
+      "messageId": "1533050854557618297"
+    },
+    "1533051031955443763": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785578248628,
+      "endAt": 1785578268628,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {
+        "1410668779347771402": 5
+      },
+      "gwVoiceSecs": {},
+      "messageId": "1533051031955443763"
+    },
+    "1533052942901313617": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785578704061,
+      "endAt": 1785578724060,
+      "entries": [
+        "1410668779347771402"
+      ],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1533052942901313617",
+      "totalEntries": 1
+    },
+    "1533053146954469407": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785578752892,
+      "endAt": 1785578772892,
+      "entries": [
+        "1410668779347771402"
+      ],
+      "ended": true,
+      "winners": [
+        "1410668779347771402"
+      ],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1533053146954469407",
+      "totalEntries": 1
+    },
+    "1533054536825049141": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785579084298,
+      "endAt": 1785579104297,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 5,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1533054536825049141",
+      "totalEntries": 0
+    },
+    "1533055067190722633": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785579210743,
+      "endAt": 1785579330743,
+      "entries": [
+        "1410668779347771402"
+      ],
+      "ended": true,
+      "winners": [
+        "1410668779347771402"
+      ],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1533055067190722633",
+      "totalEntries": 1
+    },
+    "1533055381247496263": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785579285582,
+      "endAt": 1785579305581,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 3,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1533055381247496263",
+      "totalEntries": 0
+    },
+    "1533056318858858638": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785579509006,
+      "endAt": 1785579529006,
+      "entries": [
+        "1410668779347771402"
+      ],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 3,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": 15,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1533056318858858638",
+      "totalEntries": 1
+    },
+    "1533057397260685323": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785579766216,
+      "endAt": 1785579786216,
+      "entries": [],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": 5,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": 3,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1533057397260685323",
+      "totalEntries": 0
+    },
+    "1533057533340680233": {
+      "channelId": "1528875294952521975",
+      "prize": "BABAX",
+      "winnersCount": 1,
+      "hostId": "1410668779347771402",
+      "startAt": 1785579798722,
+      "endAt": 1785579818722,
+      "entries": [
+        "1410668779347771402"
+      ],
+      "ended": true,
+      "winners": [],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": 7,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1533057533340680233",
+      "totalEntries": 1
+    },
+    "1534053511007047833": {
+      "channelId": "1530947077788536943",
+      "prize": "nitro",
+      "winnersCount": 1,
+      "hostId": "1278713831345881170",
+      "startAt": 1785817258346,
+      "endAt": 1785817268346,
+      "entries": [],
+      "ended": true,
+      "winners": [
+        "1278713831345881170"
+      ],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1534053511007047833",
+      "totalEntries": 1
+    },
+    "1534053580624101489": {
+      "channelId": "1530947077788536943",
+      "prize": "nitro",
+      "winnersCount": 1,
+      "hostId": "1278713831345881170",
+      "startAt": 1785817274825,
+      "endAt": 1785817284825,
+      "entries": [],
+      "ended": true,
+      "winners": [
+        "1278713831345881170"
+      ],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1534053580624101489",
+      "totalEntries": 2
+    },
+    "1534053669530505360": {
+      "channelId": "1530947077788536943",
+      "prize": "nitro",
+      "winnersCount": 1,
+      "hostId": "1278713831345881170",
+      "startAt": 1785817296040,
+      "endAt": 1785817306040,
+      "entries": [],
+      "ended": true,
+      "winners": [
+        "1278713831345881170"
+      ],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1534053669530505360",
+      "totalEntries": 2
+    },
+    "1534053726476566569": {
+      "channelId": "1530947077788536943",
+      "prize": "nitro",
+      "winnersCount": 1,
+      "hostId": "1278713831345881170",
+      "startAt": 1785817309668,
+      "endAt": 1785817319668,
+      "entries": [],
+      "ended": true,
+      "winners": [
+        "1371931756692897893"
+      ],
+      "description": null,
+      "color": "#FF6B6B",
+      "imageUrl": null,
+      "thumbnailUrl": null,
+      "requiredRoles": [],
+      "minLevel": null,
+      "maxLevel": null,
+      "minAge": null,
+      "minStay": null,
+      "requiredMessages": null,
+      "gwMsgChannelId": null,
+      "requiredVoiceSecs": null,
+      "gwMsgCounts": {},
+      "gwVoiceSecs": {},
+      "messageId": "1534053726476566569",
+      "totalEntries": 2
+    }
+  },
+  "reactionRoles": {
+    "1531808873323954457": [
+      {
+        "emoji": "❤️",
+        "roleId": "1528875292100132956"
+      }
+    ]
+  },
+  "buttonRoles": {
+    "1531809469531553952": [
+      {
+        "roleId": "1528875292100132956",
+        "style": "green",
+        "emoji": "<:greens:1531294565116543158>",
+        "label": "Verify"
+      }
+    ]
+  },
+  "cmdRestrictions": {
+    "tictactoe": {
+      "roles": [
+        "1528875292100132962"
+      ]
+    }
+  },
+  "rpCounts": {
+    "1410668779347771402:1420111568300937351:slap": 1,
+    "1410668779347771402:1278713831345881170:hug": 2,
+    "1410668779347771402:1278713831345881170:cuddle": 1,
+    "1410668779347771402:1278713831345881170:kiss": 1,
+    "1410668779347771402:1278713831345881170:bite": 1,
+    "1410668779347771402:1278713831345881170:slap": 1,
+    "1410668779347771402:1278713831345881170:pat": 3,
+    "1371931756692897893:1278713831345881170:kill": 1,
+    "1371931756692897893:1528881379868152020:kill": 1,
+    "1371931756692897893:1408853277470097568:punch": 1,
+    "1408853277470097568:1371931756692897893:punch": 1,
+    "1408853277470097568:1278713831345881170:hug": 1,
+    "1278713831345881170:1371931756692897893:punch": 1,
+    "1408853277470097568:1278713831345881170:slap": 2,
+    "1278713831345881170:1410668779347771402:slap": 2
+  },
+  "afk": {},
+  "pendingBoosterShares": {
+    "1528875292016251040_1410668779347771402_1420111568300937351": {
+      "targetId": "1420111568300937351",
+      "senderId": "1410668779347771402",
+      "roleId": "1531775729044426844",
+      "guildId": "1528875292016251040",
+      "channelId": "1528875294952521975",
+      "messageId": "1532397903811707024",
+      "expiresAt": 1785508930997
+    }
+  },
+  "messageStats": {
+    "1528875292016251040": {
+      "1410668779347771402": {
+        "daily": {
+          "2026-08-01": 33,
+          "2026-08-09": 8,
+          "2026-08-10": 9,
+          "2026-08-12": 26
+        },
+        "weekly": {
+          "2026-07-27": 33,
+          "2026-08-03": 8,
+          "2026-08-10": 35
+        },
+        "monthly": {
+          "2026-08": 76
+        },
+        "total": 76
+      },
+      "1278713831345881170": {
+        "daily": {
+          "2026-08-01": 131,
+          "2026-08-03": 53,
+          "2026-08-04": 156,
+          "2026-08-05": 105,
+          "2026-08-06": 177,
+          "2026-08-07": 255,
+          "2026-08-08": 275,
+          "2026-08-09": 71
+        },
+        "weekly": {
+          "2026-07-27": 131,
+          "2026-08-03": 1092
+        },
+        "monthly": {
+          "2026-08": 1223
+        },
+        "total": 1223
+      },
+      "1408853277470097568": {
+        "daily": {
+          "2026-08-01": 8,
+          "2026-08-03": 26,
+          "2026-08-04": 258,
+          "2026-08-05": 29,
+          "2026-08-06": 24,
+          "2026-08-07": 58,
+          "2026-08-08": 20
+        },
+        "weekly": {
+          "2026-07-27": 8,
+          "2026-08-03": 415
+        },
+        "monthly": {
+          "2026-08": 423
+        },
+        "total": 423
+      },
+      "1508447915352391751": {
+        "daily": {
+          "2026-08-03": 1,
+          "2026-08-04": 6
+        },
+        "weekly": {
+          "2026-08-03": 7
+        },
+        "monthly": {
+          "2026-08": 7
+        },
+        "total": 7
+      },
+      "1371931756692897893": {
+        "daily": {
+          "2026-08-04": 148,
+          "2026-08-05": 4,
+          "2026-08-06": 7,
+          "2026-08-07": 133,
+          "2026-08-08": 60,
+          "2026-08-09": 168
+        },
+        "weekly": {
+          "2026-08-03": 520
+        },
+        "monthly": {
+          "2026-08": 520
+        },
+        "total": 520
+      },
+      "820324513488699404": {
+        "daily": {
+          "2026-08-06": 1
+        },
+        "weekly": {
+          "2026-08-03": 1
+        },
+        "monthly": {
+          "2026-08": 1
+        },
+        "total": 1
+      },
+      "1534648427135369226": {
+        "daily": {
+          "2026-08-08": 1
+        },
+        "weekly": {
+          "2026-08-03": 1
+        },
+        "monthly": {
+          "2026-08": 1
+        },
+        "total": 1
+      }
+    }
+  },
+  "topvcConfig": {
+    "channelId": "1532490870291697664",
+    "voiceTimeEnabled": true,
+    "streamsEnabled": true
+  },
+  "topvcMessages": {
+    "voiceTimeMsgId": "1535414372308881440"
+  },
+  "vcStats": {
+    "1528875292016251040": {
+      "1410668779347771402": {
+        "totalMs": 2551283,
+        "daily": {
+          "2026-08-01": 509810,
+          "2026-08-04": 1505,
+          "2026-08-09": 2039968
+        },
+        "weekly": {
+          "2026-07-27": 509810,
+          "2026-08-03": 2041473
+        },
+        "monthly": {
+          "2026-08": 2551283
+        },
+        "streamMs": 2073033,
+        "cameraMs": 151316,
+        "streamDaily": {
+          "2026-08-01": 72840,
+          "2026-08-09": 2000193
+        },
+        "cameraDaily": {
+          "2026-08-01": 151316
+        },
+        "lastJoin": null,
+        "lastStreamJoin": null,
+        "lastCameraJoin": null,
+        "inVc": false,
+        "streaming": false,
+        "cameraOn": false
+      },
+      "1278713831345881170": {
+        "totalMs": 18517228,
+        "daily": {
+          "2026-08-01": 110735,
+          "2026-08-04": 2204884,
+          "2026-08-07": 3706890,
+          "2026-08-08": 11419618,
+          "2026-08-09": 1075101
+        },
+        "weekly": {
+          "2026-07-27": 110735,
+          "2026-08-03": 18406493
+        },
+        "monthly": {
+          "2026-08": 18517228
+        },
+        "streamMs": 919748,
+        "cameraMs": 0,
+        "streamDaily": {
+          "2026-08-09": 919748
+        },
+        "cameraDaily": {},
+        "lastJoin": null,
+        "lastStreamJoin": null,
+        "lastCameraJoin": null,
+        "inVc": false,
+        "streaming": false,
+        "cameraOn": false
+      },
+      "1408853277470097568": {
+        "totalMs": 1137163,
+        "daily": {
+          "2026-08-01": 309621,
+          "2026-08-04": 827542
+        },
+        "weekly": {
+          "2026-07-27": 309621,
+          "2026-08-03": 827542
+        },
+        "monthly": {
+          "2026-08": 1137163
+        },
+        "streamMs": 0,
+        "cameraMs": 0,
+        "streamDaily": {},
+        "cameraDaily": {},
+        "lastJoin": null,
+        "lastStreamJoin": null,
+        "lastCameraJoin": null,
+        "inVc": false,
+        "streaming": false,
+        "cameraOn": false
+      },
+      "1164500664462880778": {
+        "totalMs": 6527302,
+        "daily": {
+          "2026-08-04": 6527302
+        },
+        "weekly": {
+          "2026-08-03": 6527302
+        },
+        "monthly": {
+          "2026-08": 6527302
+        },
+        "streamMs": 0,
+        "cameraMs": 0,
+        "streamDaily": {},
+        "cameraDaily": {},
+        "lastJoin": null,
+        "lastStreamJoin": null,
+        "lastCameraJoin": null,
+        "inVc": false,
+        "streaming": false,
+        "cameraOn": false
+      },
+      "1528881379868152020": {
+        "totalMs": 605476,
+        "daily": {
+          "2026-08-04": 605476
+        },
+        "weekly": {
+          "2026-08-03": 605476
+        },
+        "monthly": {
+          "2026-08": 605476
+        },
+        "streamMs": 0,
+        "cameraMs": 0,
+        "streamDaily": {},
+        "cameraDaily": {},
+        "lastJoin": null,
+        "lastStreamJoin": null,
+        "lastCameraJoin": null,
+        "inVc": false,
+        "streaming": false,
+        "cameraOn": false
+      },
+      "1371931756692897893": {
+        "totalMs": 4001526,
+        "daily": {
+          "2026-08-07": 478615,
+          "2026-08-09": 3522911
+        },
+        "weekly": {
+          "2026-08-03": 4001526
+        },
+        "monthly": {
+          "2026-08": 4001526
+        },
+        "streamMs": 1285859,
+        "cameraMs": 0,
+        "streamDaily": {
+          "2026-08-09": 1285859
+        },
+        "cameraDaily": {},
+        "lastJoin": null,
+        "lastStreamJoin": null,
+        "lastCameraJoin": null,
+        "inVc": false,
+        "streaming": false,
+        "cameraOn": false
+      }
+    }
+  },
+  "sharedBoosterRoles": {
+    "1528875292016251040": {
+      "1371931756692897893": []
+    }
+  },
+  "invokeMessages": {
+    "kick": {
+      "dm": "{embed}$v{message: {user.mention}}$v{color: #738BDB}$v{description: # Kicked\n<:idksillydraw:1532735310050496635> You've been kicked in **{guild.name}**!}$v{field: Moderator && [*{moderator.name}*]( https://discord.com/users/{moderator.id} ) inline}$v{field: Reason && *{reason}* inline}$v{field: Misc && Rejoin [here](https://discord.gg/wYkxyMHYm) }$v{footer: ----------------------------------------------------}$v{thumbnail: {user.avatar}}"
+    },
+    "ban": {
+      "dm": "{embed}$v{message: {user.mention}}$v{color: #738BDB}$v{description: # Banned\n<:idksillydraw:1532735310050496635> You've been banned in **{guild.name}**!}$v{field: Moderator && [*{moderator.name}*]( https://discord.com/users/{moderator.id} ) inline}$v{field: Reason && *{reason}* inline}$v{field: Misc && Contact Mod to Appeal inline}$v{footer: --------------------------------------------------------------}$v{thumbnail: {user.avatar}}",
+      "message": "{embed}$v{color: #ffe3f8}$v{description: > *it seems that {user.mention} has been magically been banned from the server* <:40:1531291907777364000>}"
+    },
+    "unban": {
+      "dm": "{embed}$v{message: {user.mention}}$v{color: #738BDB}$v{description: # Unbanned <:known:1531260107306831872> \n<:idksillydraw:1532735310050496635> You've been Unbanned in **{guild.name}**!}$v{field: Moderator && [*{moderator.name}*]( https://discord.com/users/{moderator.id} ) inline}$v{field: Reason && *{reason}* }$v{field: Misc && Rejoin [here](https://discord.gg/wYkxyMHYm) inline}$v{footer: ----------------------------------------------------}$v{thumbnail: {user.avatar}}"
+    }
+  },
+  "roleBackups": {
+    "1278713831345881170": [
+      "1528875292100132962",
+      "1528875292100132957"
+    ],
+    "1408853277470097568": [
+      "1528875292213641258"
+    ]
+  },
+  "imuteConfig": {
+    "roleId": "1532833044636106752"
+  },
+  "rmuteConfig": {
+    "roleId": "1532833019847512094"
+  },
+  "muteConfig": {
+    "roleId": "1532821381987962910"
+  },
+  "jailConfig": {
+    "jailChannelId": "1532832978521030938",
+    "roleId": "1532832966001164405"
+  },
+  "warnExpires": 1728000000,
+  "goodbyeConfig": {
+    "message": "{embed}$v{author: {guild.name} && {guild.icon}}$v{color: ffeafc}$v{message: {user.mention}}$v{title: **goodbye, {user}**...}$v{description:\n> **{user}'s roles:**\n> {user.role_list}\n}$v{footer: they were our {user.join_position}th member | {user.id}}",
+    "channelId": "1528875294952521974",
+    "enabled": true
+  },
+  "unmuteVcChannelId": null,
+  "vcServerMuteRoles": [
+    "1529250721281740821"
+  ],
+  "reactionTriggers": [
+    {
+      "emoji": "<:rizz:1531260148985761913>",
+      "trigger": "wow",
+      "authorId": "1278713831345881170",
+      "createdAt": 1785794401537
+    }
+  ],
+  "filters": {
+    "enabled": true,
+    "useAutoMod": true,
+    "words": [
+      "nigger"
+    ],
+    "wordExempts": [],
+    "wordWhitelist": [],
+    "invites": {
+      "enabled": true,
+      "exempts": [],
+      "punishment": "delete",
+      "logChannel": null,
+      "autoModRuleId": "1534043113788542997"
+    },
+    "massmention": {
+      "enabled": true,
+      "threshold": 5,
+      "exempts": [],
+      "punishment": "delete",
+      "logChannel": null
+    },
+    "spoilers": {
+      "enabled": false,
+      "threshold": 5,
+      "exempts": [],
+      "punishment": "delete",
+      "logChannel": null
+    },
+    "links": {
+      "enabled": false,
+      "exempts": [],
+      "whitelist": [],
+      "punishment": "delete",
+      "logChannel": null
+    },
+    "regex": {
+      "patterns": [],
+      "exempts": [],
+      "punishment": "delete",
+      "logChannel": null
+    },
+    "emoji": {
+      "enabled": true,
+      "threshold": 10,
+      "exempts": [],
+      "punishment": "delete",
+      "logChannel": null
+    },
+    "musicfiles": {
+      "enabled": false,
+      "exempts": [],
+      "punishment": "delete",
+      "logChannel": null
+    },
+    "spam": {
+      "enabled": true,
+      "threshold": 4,
+      "window": 5000,
+      "exempts": [],
+      "punishment": "delete",
+      "logChannel": null
+    },
+    "caps": {
+      "enabled": true,
+      "threshold": 90,
+      "minLength": 60,
+      "exempts": [],
+      "punishment": "delete",
+      "logChannel": null
+    },
+    "duplicates": {
+      "enabled": true,
+      "threshold": 5,
+      "exempts": [],
+      "punishment": "delete",
+      "logChannel": null
+    },
+    "snipe": {
+      "types": []
+    }
+  },
+  "lastSeen": {
+    "1278713831345881170": 1786238803883,
+    "1408853277470097568": 1786226128256,
+    "1371931756692897893": 1786238783533,
+    "820324513488699404": 1786048518357,
+    "1534648427135369226": 1786220285276,
+    "1410668779347771402": 1786570954252
+  },
+  "antinuke": {
+    "enabled": true,
+    "logChannel": null,
+    "admins": [
+      "1410668779347771402",
+      "1278713831345881170"
+    ],
+    "whitelist": [
+      "1371931756692897893",
+      "1278713831345881170"
+    ],
+    "modules": {
+      "channel": {
+        "enabled": true,
+        "threshold": 1,
+        "action": "strip",
+        "command": false
+      },
+      "botadd": {
+        "enabled": true,
+        "threshold": 3,
+        "action": "strip"
+      },
+      "vanity": {
+        "enabled": true,
+        "threshold": 3,
+        "action": "ban"
+      },
+      "webhook": {
+        "enabled": true,
+        "threshold": 1,
+        "action": "strip",
+        "command": false
+      },
+      "kick": {
+        "enabled": true,
+        "threshold": 3,
+        "action": "strip",
+        "command": true
+      },
+      "ban": {
+        "enabled": true,
+        "threshold": 3,
+        "action": "strip",
+        "command": true
+      },
+      "emoji": {
+        "enabled": true,
+        "threshold": 10,
+        "action": "strip",
+        "command": false
+      },
+      "role": {
+        "enabled": true,
+        "threshold": 1,
+        "action": "strip",
+        "command": true
+      }
+    },
+    "permWatch": {
+      "grant": [
+        "administrator",
+        "mention_everyone",
+        "kick_members",
+        "moderate_members",
+        "manage_guild",
+        "manage_channels",
+        "manage_roles",
+        "view_audit_log",
+        "manage_webhooks",
+        "manage_expressions",
+        "manage_nicknames",
+        "ban_members"
+      ],
+      "remove": [
+        "administrator",
+        "ban_members",
+        "mention_everyone",
+        "kick_members",
+        "moderate_members",
+        "manage_guild",
+        "manage_channels",
+        "manage_roles",
+        "view_audit_log",
+        "manage_webhooks",
+        "manage_expressions",
+        "manage_nicknames"
+      ]
+    },
+    "permWatchPunishment": "strip"
+  },
+  "logging": {
+    "channels": {
+      "1534921094723665990": {
+        "events": [
+          "messages",
+          "members",
+          "roles",
+          "channels",
+          "invites",
+          "emojis",
+          "voice"
+        ],
+        "colors": {}
+      }
+    },
+    "ignored": {
+      "channels": [],
+      "members": []
+    }
+  },
+  "blackteaStats": {
+    "1408853277470097568": {
+      "wins": 4,
+      "gamesPlayed": 5,
+      "bestStreak": 4,
+      "totalWords": 22
+    },
+    "1278713831345881170": {
+      "wins": 2,
+      "gamesPlayed": 9,
+      "bestStreak": 2,
+      "totalWords": 29
+    },
+    "1371931756692897893": {
+      "wins": 2,
+      "gamesPlayed": 4,
+      "bestStreak": 2,
+      "totalWords": 13
+    }
+  },
+  "antiraid": {
+    "enabled": false,
+    "raidState": false,
+    "massjoin": {
+      "enabled": false,
+      "threshold": 5,
+      "action": "ban",
+      "lock": false,
+      "punish": false
+    },
+    "newaccounts": {
+      "enabled": false,
+      "threshold": 7,
+      "action": "kick"
+    },
+    "avatar": {
+      "enabled": false,
+      "action": "kick"
+    },
+    "whitelist": [],
+    "logChannel": null
+  },
+  "ignored": {
+    "members": [],
+    "channels": []
+  },
+  "autoresponders": {},
+  "commandUsage": {
+    "ping": 5,
+    "antiraid": 1,
+    "autoresponder": 20,
+    "role": 30,
+    "antinuke": 8,
+    "settings": 1,
+    "staff": 1,
+    "strip": 2,
+    "stripstaff": 4,
+    "bt": 1,
+    "help": 12,
+    "levels": 1,
+    "ask": 10,
+    "who": 1,
+    "ttt": 1,
+    "br": 4,
+    "bal": 1,
+    "balance": 6,
+    "daily": 1,
+    "economy": 3,
+    "profile": 1,
+    "messages": 1,
+    "voicetime": 1,
+    "nuke": 5,
+    "botstats": 1,
+    "play": 18,
+    "pause": 4,
+    "disconnect": 7,
+    "unpause": 2,
+    "mines": 2,
+    "resume": 3,
+    "preset": 2,
+    "skip": 4,
+    "ttschannel": 4,
+    "queue": 2,
+    "volume": 2,
+    "fastforward": 2,
+    "tts": 1,
+    "purge": 2,
+    "customize": 6,
+    "ce": 4,
+    "ec": 4,
+    "quotwe": 1,
+    "quote": 1,
+    "casino": 1,
+    "eco": 1,
+    "lock": 1,
+    "unlock": 1,
+    "ticket": 1
+  },
+  "economy": {
+    "enabled": true,
+    "logChannelId": null,
+    "rewards": {
+      "daily": 500,
+      "workMin": 100,
+      "workMax": 400,
+      "quest": 300,
+      "trivia": 200,
+      "scramble": 200,
+      "math": 200,
+      "fasttype": 200,
+      "memory": 200,
+      "slotsMixed": 50,
+      "slotsCherry": 500,
+      "slotsStar": 1000,
+      "slotsDiamond": 2500,
+      "wheel": [
+        50,
+        100,
+        250,
+        500,
+        1000
+      ],
+      "scratchMin": 50,
+      "scratchMax": 500,
+      "minesBase": 100,
+      "minesIncrement": 50,
+      "cupsEasy": 100,
+      "cupsMedium": 250,
+      "cupsHard": 500,
+      "highlow": 200,
+      "jackpot": 5000
+    },
+    "cooldowns": {
+      "daily": 86400000,
+      "work": 3600000,
+      "trivia": 300000,
+      "scramble": 300000,
+      "math": 300000,
+      "fasttype": 300000,
+      "memory": 300000,
+      "slots": 300000,
+      "wheel": 300000,
+      "scratch": 300000,
+      "mines": 300000,
+      "cups": 300000,
+      "highlow": 300000,
+      "jackpot": 3600000
+    },
+    "events": {
+      "enabled": true,
+      "autoInterval": 3600000
+    },
+    "eventMultipliers": {
+      "work": 2,
+      "quest": 2,
+      "trivia": 2,
+      "casino": 2
+    },
+    "maxBalance": 999999999,
+    "dailyRewardLimit": 50000,
+    "antiSpamWindow": 10000,
+    "antiSpamThreshold": 10,
+    "messageCooldown": 2000,
+    "users": {
+      "1278713831345881170": {
+        "credits": 250,
+        "lifetimeEarned": 250,
+        "lifetimeSpent": 0,
+        "questsCompleted": 1,
+        "inventory": [],
+        "equipped": {},
+        "stats": {
+          "dailyClaims": 0,
+          "workCount": 0,
+          "gamesPlayed": 1,
+          "gamesWon": 0,
+          "shopPurchases": 0,
+          "messagesSent": 63,
+          "commandsUsed": 0
+        },
+        "cooldowns": {
+          "mines": 1786237285620
+        },
+        "quests": [
+          {
+            "id": 1786234349282,
+            "type": "minigames",
+            "name": "Complete 2 minigames",
+            "target": 2,
+            "progress": 0,
+            "reward": 400,
+            "completed": false
+          },
+          {
+            "id": 1786234349283,
+            "type": "commands",
+            "name": "Use 3 economy commands",
+            "target": 3,
+            "progress": 3,
+            "reward": 250,
+            "completed": true
+          },
+          {
+            "id": 1786234349284,
+            "type": "daily",
+            "name": "Complete a daily objective (,daily)",
+            "target": 1,
+            "progress": 0,
+            "reward": 200,
+            "completed": false
+          }
+        ],
+        "messageTracker": {
+          "lastContent": ",purge 3",
+          "lastTime": 1786238803885,
+          "messageCount": 2,
+          "commandCount": 0,
+          "spamCount": 0,
+          "windowStart": 1786238796312
+        },
+        "suspiciousFlags": 0,
+        "_dailyEarned": 250,
+        "_dailyReset": 1786237276617
+      },
+      "1371931756692897893": {
+        "credits": 0,
+        "lifetimeEarned": 0,
+        "lifetimeSpent": 0,
+        "questsCompleted": 0,
+        "inventory": [],
+        "equipped": {},
+        "stats": {
+          "dailyClaims": 0,
+          "workCount": 0,
+          "gamesPlayed": 0,
+          "gamesWon": 0,
+          "shopPurchases": 0,
+          "messagesSent": 156,
+          "commandsUsed": 0
+        },
+        "cooldowns": {},
+        "quests": [
+          {
+            "id": 1786234860896,
+            "type": "minigames",
+            "name": "Complete 2 minigames",
+            "target": 2,
+            "progress": 0,
+            "reward": 400,
+            "completed": false
+          },
+          {
+            "id": 1786234860897,
+            "type": "messages",
+            "name": "Send 50 legitimate messages",
+            "target": 50,
+            "progress": 50,
+            "reward": 300,
+            "completed": false
+          },
+          {
+            "id": 1786234860898,
+            "type": "commands",
+            "name": "Use 3 economy commands",
+            "target": 3,
+            "progress": 0,
+            "reward": 250,
+            "completed": false
+          }
+        ],
+        "messageTracker": {
+          "lastContent": "baiiiiiiiiiiiiiiiii",
+          "lastTime": 1786238783535,
+          "messageCount": 1,
+          "commandCount": 0,
+          "spamCount": 0,
+          "windowStart": 1786238783535
+        },
+        "suspiciousFlags": 0
+      },
+      "1410668779347771402": {
+        "credits": 0,
+        "lifetimeEarned": 0,
+        "lifetimeSpent": 0,
+        "questsCompleted": 0,
+        "inventory": [],
+        "equipped": {},
+        "stats": {
+          "dailyClaims": 0,
+          "workCount": 0,
+          "gamesPlayed": 0,
+          "gamesWon": 0,
+          "shopPurchases": 0,
+          "messagesSent": 35,
+          "commandsUsed": 0
+        },
+        "cooldowns": {},
+        "quests": [
+          {
+            "id": 1786316286561,
+            "type": "messages",
+            "name": "Send 50 legitimate messages",
+            "target": 50,
+            "progress": 35,
+            "reward": 300,
+            "completed": false
+          },
+          {
+            "id": 1786316286562,
+            "type": "daily",
+            "name": "Complete a daily objective (,daily)",
+            "target": 1,
+            "progress": 0,
+            "reward": 200,
+            "completed": false
+          },
+          {
+            "id": 1786316286563,
+            "type": "trivia",
+            "name": "Answer 3 trivia questions correctly",
+            "target": 3,
+            "progress": 0,
+            "reward": 300,
+            "completed": false
+          }
+        ],
+        "messageTracker": {
+          "lastContent": ",ticket",
+          "lastTime": 1786570954257,
+          "messageCount": 1,
+          "commandCount": 0,
+          "spamCount": 0,
+          "windowStart": 1786570954257
+        },
+        "suspiciousFlags": 0
+      }
+    },
+    "logs": [
+      {
+        "userId": "1278713831345881170",
+        "amount": 250,
+        "type": "quest",
+        "prevBalance": 0,
+        "newBalance": 250,
+        "timestamp": 1786237276619,
+        "source": "quest",
+        "staffId": null
+      }
+    ],
+    "shop": [
+      {
+        "id": "badge_vip",
+        "name": "VIP Badge",
+        "description": "A shiny VIP badge for your profile.",
+        "price": 5000,
+        "type": "badge",
+        "emoji": "💎"
+      },
+      {
+        "id": "badge_donator",
+        "name": "Donator Badge",
+        "description": "Shows you support the server.",
+        "price": 10000,
+        "type": "badge",
+        "emoji": "💖"
+      },
+      {
+        "id": "title_gambler",
+        "name": "Title: Gambler",
+        "description": "A title showing your casino skills.",
+        "price": 3000,
+        "type": "title",
+        "emoji": "🎰"
+      },
+      {
+        "id": "title_rich",
+        "name": "Title: Millionaire",
+        "description": "A title for the wealthy.",
+        "price": 8000,
+        "type": "title",
+        "emoji": "💰"
+      },
+      {
+        "id": "title_worker",
+        "name": "Title: Hard Worker",
+        "description": "Earned through dedication.",
+        "price": 2500,
+        "type": "title",
+        "emoji": "🔨"
+      },
+      {
+        "id": "decoration_gold",
+        "name": "Gold Frame",
+        "description": "A gold frame for your profile.",
+        "price": 6000,
+        "type": "decoration",
+        "emoji": "🖼️"
+      },
+      {
+        "id": "effect_rainbow",
+        "name": "Rainbow Effect",
+        "description": "Rainbow text effect on profile.",
+        "price": 7500,
+        "type": "effect",
+        "emoji": "🌈"
+      },
+      {
+        "id": "collectible_coin",
+        "name": "Lucky Coin",
+        "description": "A rare collectible coin.",
+        "price": 1500,
+        "type": "collectible",
+        "emoji": "🪙"
+      },
+      {
+        "id": "collectible_trophy",
+        "name": "Mini Trophy",
+        "description": "A small trophy for your shelf.",
+        "price": 4000,
+        "type": "collectible",
+        "emoji": "🏆"
+      },
+      {
+        "id": "event_summer",
+        "name": "Summer Sun",
+        "description": "Limited summer event item.",
+        "price": 2000,
+        "type": "event",
+        "emoji": "☀️"
+      }
+    ],
+    "activeEvents": {}
+  }
+}

@@ -1,0 +1,167 @@
+[2026-07-20T00:11:23.010Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-20T00:11:23.252Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-20T00:11:23.252Z] [INFO] [STREAK] Next new day: 2026-07-20T22:00:00.000Z
+[2026-07-20T00:11:23.258Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-20T00:11:23.480Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-20T00:11:23.481Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-20T00:11:23.483Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-20T00:11:23.483Z] [INFO] [BOT] Ready. Serving 1 guilds.
+[2026-07-20T00:15:53.465Z] [INFO] [CMD] laccyy. in peaked → .help
+[2026-07-20T00:16:08.703Z] [INFO] [CMD] laccyy. in peaked → .voicemaster
+[2026-07-20T00:17:59.995Z] [INFO] [CMD] laccyy. in peaked → .godadmin
+[2026-07-20T00:18:39.405Z] [INFO] [CMD] laccyy. in peaked → .purge
+[2026-07-20T00:18:45.116Z] [INFO] [CMD] laccyy. in peaked → .purge
+[2026-07-20T00:22:34.273Z] [INFO] [CMD] laccyy. in peaked → .play
+[2026-07-20T00:22:39.717Z] [INFO] [CMD] laccyy. in peaked → .music
+[2026-07-20T00:22:42.708Z] [INFO] [CMD] laccyy. in peaked → .help
+[2026-07-20T00:22:55.546Z] [INFO] [CMD] laccyy. in peaked → .hug
+[2026-07-20T00:22:55.678Z] [ERROR] [ROLEPLAY] GIF fetch failed (nekos/hug) — nekos.best 403
+[2026-07-20T00:23:34.880Z] [INFO] [CMD] laccyy. in peaked → .sprefix
+[2026-07-20T00:23:43.133Z] [INFO] [CMD] laccyy. in peaked → .sprefix
+[2026-07-20T00:23:58.305Z] [INFO] [CMD] laccyy. in peaked → .sprefix
+[2026-07-20T00:24:11.283Z] [INFO] [CMD] laccyy. in peaked → .prefix
+[2026-07-20T00:24:19.162Z] [INFO] [CMD] laccyy. in peaked → .prefix
+[2026-07-20T00:24:52.785Z] [INFO] [CMD] laccyy. in peaked → .vc
+[2026-07-20T00:24:59.891Z] [INFO] [CMD] laccyy. in peaked → .vc
+[2026-07-20T00:25:21.241Z] [INFO] [CMD] laccyy. in peaked → .vc
+[2026-07-20T00:25:25.073Z] [INFO] [CMD] laccyy. in peaked → .vc
+[2026-07-20T00:25:31.137Z] [INFO] [CMD] laccyy. in peaked → .vc
+[2026-07-20T00:25:39.511Z] [INFO] [CMD] laccyy. in peaked → .vc
+[2026-07-20T00:25:45.152Z] [INFO] [CMD] laccyy. in peaked → .vc
+[2026-07-20T00:25:53.940Z] [INFO] [CMD] laccyy. in peaked → .vc
+[2026-07-20T00:28:04.624Z] [INFO] [CMD] laccyy. in peaked → .cmds
+[2026-07-20T00:28:06.788Z] [INFO] [CMD] laccyy. in peaked → .cmd
+[2026-07-20T00:28:10.897Z] [INFO] [CMD] laccyy. in peaked → .help
+[2026-07-20T00:29:05.386Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T00:29:09.681Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T00:29:32.926Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T00:30:40.558Z] [INFO] [CMD] laccyy. in peaked → .snipe
+[2026-07-20T01:07:28.425Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T01:16:49.225Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T01:19:48.645Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T01:19:53.387Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T01:20:10.602Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T01:22:34.086Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T01:26:18.674Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T01:26:29.437Z] [INFO] [CMD] laccyy. in peaked → .welcome
+[2026-07-20T13:43:47.872Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-20T13:43:48.168Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-20T13:43:48.169Z] [INFO] [STREAK] Next new day: 2026-07-20T22:00:00.000Z
+[2026-07-20T13:43:48.176Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-20T13:43:48.364Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-20T13:43:48.366Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-20T13:43:48.368Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-20T13:43:48.736Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-20T13:44:52.362Z] [INFO] [CMD] laccyy. in peaked → .voicemaster
+[2026-07-20T13:50:30.453Z] [INFO] [CMD] lacyyy0890 in peaked → .voicemaster
+[2026-07-20T14:04:26.785Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-20T14:04:27.004Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-20T14:04:27.005Z] [INFO] [STREAK] Next new day: 2026-07-20T22:00:00.000Z
+[2026-07-20T14:04:27.016Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-20T14:04:27.241Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-20T14:04:27.243Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-20T14:04:27.245Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-20T14:04:27.583Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-20T14:05:00.799Z] [INFO] [CMD] laccyy. in peaked → .voicemaster
+[2026-07-20T14:06:45.546Z] [INFO] [CMD] laccyy. in peaked → .antinuke
+[2026-07-20T14:07:02.024Z] [INFO] [CMD] laccyy. in peaked → .help
+[2026-07-20T14:07:21.065Z] [INFO] [CMD] laccyy. in peaked → .antinuke
+[2026-07-20T14:07:43.212Z] [INFO] [CMD] laccyy. in peaked → .help
+[2026-07-20T14:07:50.883Z] [INFO] [CMD] laccyy. in peaked → .play
+[2026-07-20T14:10:35.996Z] [INFO] [CMD] laccyy. in peaked → .help
+[2026-07-20T16:12:55.994Z] [INFO] [CMD] scarycum in peaked → .godadmin
+[2026-07-20T16:17:01.678Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-20T16:17:01.987Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-20T16:17:01.987Z] [INFO] [STREAK] Next new day: 2026-07-20T22:00:00.000Z
+[2026-07-20T16:17:01.995Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-20T16:17:02.270Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-20T16:17:02.272Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-20T16:17:02.274Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-20T16:17:02.690Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-20T16:17:18.006Z] [INFO] [CMD] scarycum in peaked → .godadmin
+[2026-07-20T16:17:45.395Z] [INFO] [CMD] scarycum in peaked → .purge
+[2026-07-20T19:24:33.300Z] [INFO] [CMD] scarycum in peaked → .hug
+[2026-07-20T19:24:33.436Z] [ERROR] [ROLEPLAY] GIF fetch failed (nekos/hug) — nekos.best 403
+[2026-07-20T19:24:47.238Z] [INFO] [CMD] scarycum in peaked → .kiss
+[2026-07-20T19:24:47.292Z] [ERROR] [ROLEPLAY] GIF fetch failed (nekos/kiss) — nekos.best 403
+[2026-07-20T19:24:48.515Z] [INFO] [CMD] scarycum in peaked → .kiss
+[2026-07-20T19:24:50.813Z] [INFO] [CMD] scarycum in peaked → .kiss
+[2026-07-20T19:24:50.828Z] [ERROR] [ROLEPLAY] GIF fetch failed (nekos/kiss) — nekos.best 403
+[2026-07-20T19:25:10.654Z] [INFO] [CMD] scarycum in peaked → .quote
+[2026-07-20T19:27:02.164Z] [INFO] [CMD] scarycum in peaked → .blacktea
+[2026-07-20T19:27:09.186Z] [INFO] [CMD] scarycum in peaked → .help
+[2026-07-20T19:27:39.168Z] [INFO] [CMD] scarycum in peaked → .pp
+[2026-07-20T19:27:42.458Z] [INFO] [CMD] scarycum in peaked → .pp
+[2026-07-20T19:27:46.147Z] [INFO] [CMD] scarycum in peaked → .pp
+[2026-07-20T19:28:17.091Z] [INFO] [CMD] dskjailwla in peaked → .pp
+[2026-07-20T19:28:30.427Z] [INFO] [CMD] dskjailwla in peaked → .pp
+[2026-07-20T19:28:34.260Z] [INFO] [CMD] dskjailwla in peaked → .pp
+[2026-07-20T19:29:43.556Z] [INFO] [CMD] scarycum in peaked → .vc
+[2026-07-20T21:12:25.511Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-20T21:12:25.936Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-20T21:12:25.937Z] [INFO] [STREAK] Next new day: 2026-07-21T22:00:00.000Z
+[2026-07-20T21:12:25.942Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-20T21:12:26.148Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-20T21:12:26.150Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-20T21:12:26.153Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-20T21:12:26.501Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-20T21:12:30.766Z] [INFO] [CMD] scarycum in peaked → .ship
+[2026-07-20T22:06:23.700Z] [INFO] [BOT] Logged in as kaido#6964
+[2026-07-20T22:06:23.892Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-20T22:06:23.892Z] [INFO] [STREAK] Next new day: 2026-07-21T22:00:00.000Z
+[2026-07-20T22:06:23.898Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-20T22:06:24.069Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-20T22:06:24.071Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-20T22:06:24.074Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-20T22:06:24.528Z] [INFO] [BOT] Ready. Serving 2 guilds.
+[2026-07-20T22:07:59.001Z] [INFO] [BOT] Logged in as doll#7508
+[2026-07-20T22:07:59.110Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-20T22:07:59.111Z] [INFO] [STREAK] Next new day: 2026-07-21T22:00:00.000Z
+[2026-07-20T22:07:59.117Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-20T22:08:00.672Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-20T22:08:00.673Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-20T22:08:00.674Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-20T22:08:00.675Z] [WARN] [WHITELIST] Leaving non-whitelisted guild on startup: @lard (1528875292016251040)
+[2026-07-20T22:08:01.202Z] [INFO] [BOT] Ready. Serving 0 guilds.
+[2026-07-20T22:14:06.884Z] [INFO] [BOT] Logged in as doll#7508
+[2026-07-20T22:14:07.106Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-20T22:14:07.107Z] [INFO] [STREAK] Next new day: 2026-07-21T22:00:00.000Z
+[2026-07-20T22:14:07.116Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-20T22:14:07.372Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-20T22:14:07.373Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-20T22:14:07.373Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-20T22:14:07.376Z] [INFO] [BOT] Ready. Serving 0 guilds.
+[2026-07-20T22:14:25.774Z] [INFO] [GUILD] Initialized settings for: @lard (1528875292016251040)
+[2026-07-20T22:14:25.774Z] [INFO] [GUILD] Joined new guild: @lard (1528875292016251040)
+[2026-07-20T22:17:18.462Z] [INFO] [CMD] scarycum in @lard → .voicemaster
+[2026-07-20T22:17:33.874Z] [INFO] [CMD] scarycum in @lard → .sprefix
+[2026-07-20T22:17:48.711Z] [INFO] [CMD] scarycum in @lard → .sprefix
+[2026-07-20T22:50:31.034Z] [INFO] [BOT] Logged in as doll#7508
+[2026-07-20T22:50:31.313Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-20T22:50:31.313Z] [INFO] [STREAK] Next new day: 2026-07-21T22:00:00.000Z
+[2026-07-20T22:50:31.321Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-20T22:50:31.541Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-20T22:50:31.542Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-20T22:50:31.542Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-20T22:50:31.877Z] [INFO] [BOT] Ready. Serving 1 guilds.
+[2026-07-20T22:51:19.959Z] [INFO] [CMD] scarycum in gc → .voicemaster
+[2026-07-20T22:52:11.012Z] [WARN] [WHITELIST] Leaving non-whitelisted guild: doll emojis (1528888947072041010)
+[2026-07-20T22:56:11.177Z] [INFO] [BOT] Logged in as doll#7508
+[2026-07-20T22:56:11.711Z] [INFO] [BOT] Loaded 369652 dictionary words
+[2026-07-20T22:56:11.712Z] [INFO] [STREAK] Next new day: 2026-07-21T22:00:00.000Z
+[2026-07-20T22:56:11.718Z] [INFO] [SLASH] Registering 48 slash commands globally...
+[2026-07-20T22:56:11.964Z] [INFO] [SLASH] Registered 48 slash commands successfully.
+[2026-07-20T22:56:11.965Z] [INFO] [TEMPBAN] Restored 0 active tempban(s); processed 0 overdue
+[2026-07-20T22:56:11.965Z] [INFO] [NUKE] Restored 0 scheduled nuke(s)
+[2026-07-20T22:56:12.419Z] [INFO] [BOT] Ready. Serving 1 guilds.
+[2026-07-20T22:56:29.602Z] [INFO] [CMD] scarycum in gc → .voicemaster
+[2026-07-20T22:56:54.718Z] [INFO] [GUILD] Initialized settings for: doll emojis (1528888947072041010)
+[2026-07-20T22:56:54.719Z] [INFO] [GUILD] Joined new guild: doll emojis (1528888947072041010)
+[2026-07-20T22:57:44.305Z] [INFO] [CMD] scarycum in gc → .voicemaster
+[2026-07-20T23:03:59.370Z] [INFO] [CMD] scarycum in gc → .welcome
+[2026-07-20T23:04:04.077Z] [INFO] [CMD] scarycum in gc → .welcome
+[2026-07-20T23:04:28.218Z] [INFO] [CMD] scarycum in gc → .welcome
+[2026-07-20T23:19:49.250Z] [INFO] [CMD] scarycum in gc → .purge
+[2026-07-20T23:20:44.906Z] [INFO] [CMD] scarycum in gc → .lock
+[2026-07-20T23:25:38.746Z] [INFO] [CMD] scarycum in gc → .lock
+[2026-07-20T23:25:51.962Z] [INFO] [CMD] scarycum in gc → .sticky

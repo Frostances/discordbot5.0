@@ -1,0 +1,106 @@
+{
+  "temproles": [],
+  "reminders": [],
+  "_initialized": true,
+  "settings": {
+    "prefix": ","
+  },
+  "modules": {},
+  "staffRoles": [],
+  "cases": [
+    {
+      "id": 1,
+      "type": "nuke",
+      "targetId": "1528068703755698299",
+      "executorId": "1518930228771295270",
+      "reason": "No reason provided",
+      "timestamp": 1784390369586,
+      "guildId": "1527037800954986748",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    },
+    {
+      "id": 2,
+      "type": "nickname",
+      "targetId": "1527255988648808568",
+      "executorId": "1518930228771295270",
+      "reason": "Force nickname: lol",
+      "timestamp": 1784390431350,
+      "guildId": "1527037800954986748",
+      "duration": null,
+      "expires": null,
+      "evidence": [],
+      "proof": [],
+      "extra": {},
+      "status": "active",
+      "edited": false,
+      "editHistory": []
+    }
+  ],
+  "notes": {},
+  "forcedNicks": {
+    "1527255988648808568": "lol"
+  },
+  "ticket": {
+    "setupComplete": true,
+    "categoryId": "1528069703799410890",
+    "panelChannelId": "1528069704462368868",
+    "supportRoles": [],
+    "ticketCounter": 0,
+    "tickets": {},
+    "ticketPanels": {
+      "default": {
+        "id": "default",
+        "name": "🎫 Support Ticket",
+        "description": "Click the button below to create a support ticket",
+        "color": "#5865F2",
+        "image": null,
+        "thumbnail": null,
+        "footer": "Kaido Support Team",
+        "author": null,
+        "buttons": [
+          {
+            "id": "general",
+            "label": "Create Ticket",
+            "emoji": "🎫",
+            "style": 1
+          }
+        ],
+        "supportRoles": [],
+        "category": "1528069703799410890",
+        "transcriptChannel": null,
+        "logChannel": null,
+        "cooldown": 0,
+        "ticketLimit": 5,
+        "requiredRoles": [],
+        "blacklistedRoles": [],
+        "forms": [],
+        "createdAt": 1784390607768
+      }
+    },
+    "ticketCooldowns": {},
+    "panelMessages": {}
+  },
+  "voiceMaster": {
+    "categoryId": "1528764672227021030",
+    "interfaceChannelId": "1528764673246232788",
+    "joinChannelId": "1528764674286555340",
+    "interfaceMessageId": "1528764676467331105"
+  },
+  "rpCounts": {
+    "1408853277470097568:1518930228771295270:hug": 1,
+    "1410668779347771402:1457865598209102014:hug": 1,
+    "1410668779347771402:1457865598209102014:kiss": 2
+  },
+  "welcomeConfig": {
+    "enabled": true,
+    "channelId": "1527037802376593519",
+    "message": "hii {user.mention}"
+  }
+}
