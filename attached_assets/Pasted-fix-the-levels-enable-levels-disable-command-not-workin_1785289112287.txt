@@ -1,0 +1,208 @@
+fix the levels enable , levels disable command not working
+
+ADD ",afk" / ",afk (comment)" command
+ex: ,afk watching movie
+ so if someone pinged the afk person it says
+"{user} has been afk for (amount of time) "Watching movie""
+and when the afk user types a message in any channel it replies in that channel to that user "welcome back, you were afk for (amount of time)"
+
+ADD ,boosterrole icon (it can be emoji or image link) this command basically puts a role icon for the booster role
+also when the booster shares a role to someone the other person has to decide to accept or not to get the role (dont just share it directley without their acceptance)
+
+ADD MORE 2 GIVEAWAYS EDITS CODES:
+"required_messages (amount of message user needs to send after that giveaway start) (ex: 100)
+
+"required_voice (amount of time user spend in a voice channel after that giveaway start) (ex: 1h)
+
+you can optionally mention after each of this 2 giveaway edit codes (optional) (ex: ,giveaways edit required_message 125 #chat) means the user has to send 125 messages in chat channel (or any channel if the #channel isnt mentioned) in order to join this giveaway... and make the required_message and required_voice system actually WORK so if the user didnt actually achieve them if they are required in a giveaway then he cant ENTER the giveaway so actually COUNT everyones messages after the giveaway start
+
+also make that you are able to edit all those stuff in the giveaway message before it even starts!
+Example: ,giveaways start #channel 10d 1 10$ ROBUX --host @user, --description We will reroll winner if he didnt respond, --required_messages 200 #channel --required_voice 1h
+
+IMPROVE THE GUIS like the refrence in the provided screenshots and use
+this emoji when the command is approved as a checkmark emoji inside a embed message: <:checkmark:1528890895859056680>
+example if i used ,vm setup make the bot respond with embed message saying "(checkmark emoji) VoiceMaster Setup is complete!"
+
+use this warn emoji as well in a embed message as a response if the command cant be used or dont have permisson for it or you cant use it for other reasons : <:warn:1528892150698348727>
+
+remove the footer that says : "Kaido•Today at (time)" from the response messages of the bot because it makes the response message look big and large which is annoying
+
+ADD FAKE PERMISSION SYSTEM
+
+Fake Permissions
+
+Restrict moderators to only use bot for moderation.
+
+
+
+​
+
+Why use fake permissions?
+
+Fake permissions negate the possibility of a rogue moderator using a script which floods the Discord API and mass bans all members, or any other harmful action. It’s a security measure which ensures that your server can’t be nuked whatsoever.
+
+​
+
+How do fake permissions work?
+
+When a moderator is given fake permissions, such as ban_members, they will be able to use the ban command with bleed, but they won’t be able to use the native Discord ban feature.
+
+​
+
+Getting command permissions
+
+You can locate the required permissions for a command with ,help (command).
+
+
+
+​
+
+Setting up fake permissions
+
+The following commands can only be used by the server owner.
+
+Granting fake permissions to a role
+
+
+
+Use the fakepermissions add command to grant a fake permission to a role.
+
+
+
+Syntax
+
+
+
+Example
+
+,fakepermissions add @admin ban_members, kick_members
+
+Revoking fake permissions from a role
+
+
+
+Use the fakepermissions remove command to revoke a fake permission from a role.
+
+
+
+Syntax
+
+
+
+Example
+
+,fakepermissions remove @admin ban_members, kick_members
+
+Viewing fake permissions
+
+
+
+Use the fakepermissions list command to view all fake permissions.
+
+You can optionally specify a role to only view the fake permissions of that role.
+
+
+
+Syntax
+
+
+
+Example
+
+,fakepermissions list @admin
+
+Revoking all fake permissions
+
+
+
+Use the fakepermissions reset command to reset all fake permissions.
+
+
+btw u can get all the permissions codes from the permissions variables
+
+
+Add this stuff in moderation:
+
+Invoke Messages
+
+You can customize the response for moderation commands which is by default 👍 and the direct message which will be sent after punishing the user.
+
+The following moderation commands can be customized:
+
+jail, kick, ban, tempban, softban, hardban, timeout & warn.
+
+The message parameter can be raw text or an embed with dynamic variables.
+
+
+
+Syntax
+
+
+,invoke (command) message (message / embed code)
+
+,invoke (command) dm (message / embed code)
+
+Example
+
+,invoke jail message {user.mention} has been jailed for {reason}
+
+,invoke jail dm you have been jailed for {reason}
+
+
+Setting Staff Roles
+
+It’s important to set the staff roles in your server to ensure that bleed can identify who has dangerous permissions. This is necessary for the stripstaff punishment to work.
+
+Use the ,bind staff @role command to set a role as a staff role, you would re-run the command if you don’t want a role set as staff anymore.
+You can view set staff roles with the ,bind staff list command.
+
+
+Overview
+
+Moderation commands require some basic setup before they can be used. This includes moderation logs, mute roles, and the jailed role & channel.
+
+1
+
+Creating the case logs & jail role
+
+
+
+Jail is a feature similar to mute, but it restricts users from all channels except #jail.
+
+Use the ,setup command to create the case logs channel and jail role.
+
+2
+
+Creating the necessary mute roles
+
+
+
+This will create a text mute, image mute, and reaction mute role.
+
+Use the ,setupmute command to create the necessary mute roles.
+
+Upon completion of the setup, you’ll notice a few new roles and channels in your server.
+
+Muted - Used to restrict users from sending messages.
+
+Image Muted - Used to restrict users from uploading attachments.
+
+Reaction Muted - Used to restrict users from reacting to messages.
+
+Jailed - Used to restrict users from all channels except the #jail channel.
+
+The #jail-log channel logs all moderation actions done through bleed (e.g. ,ban & ,kick). The #jail channel is where users jailed by the jail command are restricted to.
+
+
+fix restrictcommand system so if u add a restrictcommand for a role then a person with that role cant run this command or its aliases and for the reset make it resets aka remove all the role restrictedcommands and for the remove make it remove from this specific command from the list
+.restrictcommand list (shows all the restricted commands and their roles)
+.restrictcommand list @role (shows all the restricted for that role)
+..restrictcommand <add|remove|reset|list> <command> [@role]
+add this new two in restrictcommand system
+.restrictcommand <allow|deny> <command> [@role] (Allow specific roles to use/not use  a command anyway)
+
+
+and now and most important for the "Server" commands add ALL this new commands from the pasted content,  don't miss anything. (some of them already exist dont duplicate)
+
+
+

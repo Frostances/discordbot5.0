@@ -1,0 +1,359 @@
+Continue building the Discord bot.
+
+Do NOT rewrite existing systems unless required for compatibility.
+
+Preserve all existing commands and databases.
+
+====================================================
+ROLE MODERATION
+====================================================
+
+Complete the entire role moderation system.
+
+Required commands:
+
+.role add <member> <role>
+.role remove <member> <role>
+.role create <name> [color]
+.role delete <role>
+.role edit <role> <new name>
+.role color <role> <color>
+.role color gradient <role> <color1> <color2>
+.role icon <role> <image>
+.role mentionable <role>
+.role hoist <role>
+.role restore <member>
+
+Mass role commands:
+
+.role humans <role>
+.role humans remove <role>
+
+.role bots <role>
+.role bots remove <role>
+
+.role has <role> <assign role>
+.role has remove <role> <remove role>
+
+.role add all <role>
+.role remove all <role>
+
+IMPORTANT:
+
+.role add all
+
+and
+
+.role remove all
+
+MUST only affect HUMAN MEMBERS.
+
+Never affect bots.
+
+Never affect applications.
+
+Never affect webhooks.
+
+Show a progress embed while processing.
+
+Allow cancellation using:
+
+.role cancel
+
+====================================================
+ROLE SAFETY
+====================================================
+
+Prevent duplicate processing.
+
+Handle Discord rate limits.
+
+Resume safely if interrupted.
+
+Log all mass role actions.
+
+====================================================
+CHANNEL MODERATION
+====================================================
+
+Implement:
+
+.hide
+
+.unhide
+
+.topic
+
+.talk
+
+.rename
+
+.revokefiles
+
+.revokefiles on
+
+.revokefiles off
+
+Move permissions correctly.
+
+Update overwrite permissions safely.
+
+====================================================
+LOCKDOWN SYSTEM
+====================================================
+
+Complete:
+
+.lockdown
+
+.lockdown all
+
+.unlock
+
+.unlock all
+
+.lockdown role
+
+.lockdown ignore add
+
+.lockdown ignore remove
+
+.lockdown ignore list
+
+Ignored channels must never be modified.
+
+Store ignored channels in database.
+
+====================================================
+SLOWMODE
+====================================================
+
+Implement:
+
+.slowmode
+
+.slowmode on
+
+.slowmode off
+
+Accept:
+
+5s
+
+10s
+
+30s
+
+1m
+
+2m
+
+5m
+
+15m
+
+1h
+
+====================================================
+PURGE SYSTEM
+====================================================
+
+Complete every purge command.
+
+.purge
+
+.purge bots
+
+.purge humans
+
+.purge links
+
+.purge emoji
+
+.purge emotes
+
+.purge embeds
+
+.purge files
+
+.purge images
+
+.purge mentions
+
+.purge reactions
+
+.purge stickers
+
+.purge activity
+
+.purge contains
+
+.purge startswith
+
+.purge endswith
+
+.purge before
+
+.purge after
+
+.purge between
+
+.purge upto
+
+Support Discord bulk delete limitations.
+
+Filter correctly.
+
+Show deleted count.
+
+====================================================
+VOICE MODERATION
+====================================================
+
+Complete:
+
+.drag
+
+.moveall
+
+Move members safely.
+
+Skip disconnected members.
+
+====================================================
+STICKY ROLES
+====================================================
+
+Complete:
+
+.stickyrole add
+
+.stickyrole remove
+
+.stickyrole list
+
+Automatically restore roles when users rejoin.
+
+====================================================
+SETUP COMMANDS
+====================================================
+
+Move ALL hardcoded configuration values into commands.
+
+Instead of editing:
+
+UNMUTE_CHANNEL_ID
+
+TOP_10_VC_CHANNEL_ID
+
+STREAK_ROLE_ID
+
+VC_LOG_CHANNEL_ID
+
+Create commands like:
+
+.config vc logs
+
+.config vc top
+
+.config streak role
+
+.config unmute channel
+
+Store everything per-server.
+
+====================================================
+COMMAND HELP SYSTEM
+====================================================
+
+Revamp the help menu.
+
+Instead of sending huge embeds:
+
+Display ONLY 10 commands per page.
+
+Use Discord buttons:
+
+◀ Previous
+
+Next ▶
+
+Show:
+
+Current Page
+
+Total Pages
+
+Category
+
+Command Count
+
+Example Usage
+
+Required Permission
+
+Alias
+
+Description
+
+Search support:
+
+.help ban
+
+.help moderation
+
+.help role
+
+.help tickets
+
+etc.
+
+====================================================
+PERMISSIONS
+====================================================
+
+Every command must verify:
+
+Discord permission
+
+Bot permission
+
+Staff restriction
+
+Command restriction
+
+Owner restriction
+
+If blocked:
+
+"Woopsie, this command is restricted for your role."
+
+====================================================
+DATABASE
+====================================================
+
+Everything must be stored PER GUILD.
+
+Never share settings between servers.
+
+====================================================
+CODE QUALITY
+====================================================
+
+Do NOT duplicate code.
+
+Reuse utility functions.
+
+Use modular architecture.
+
+Proper error handling.
+
+Async/await everywhere.
+
+Optimize for large servers.
+
+No placeholder code.
+
+No TODOs.
+
+Everything should be production-ready.

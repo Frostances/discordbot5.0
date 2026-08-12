@@ -1,0 +1,994 @@
+dont require every command for "staff only , admin only for the command" make the requires make sense like for example for the ".voicemaster setup" , ".ticket setup" , require "manage channel" permission
+
+add this following commands:
+
+.steal (emoji) it steals emoji from any server and puts it in this server u ran the command in (you must have create expression permisson)
+
+.boosterrole create (name) (only if this user has the booste role)
+.boosterrole rename (name)
+.boosterrole color (colour or hex code)
+.boosterrole reset (removes the boooster role and clears all configuration)
+.boosterrole share @user (shares ur boosterrole with someone else)
+--- booster role setup for server ( needs manage role permission)
+.boosterrole enable
+.boosterrole disable
+.boosterrole share max (0-99) if its set to 0 then its disabled 
+.boosterrole base (role) (Set the base role for where boost roles will go under)
+.boosterrole dominant (Set booster roles color to the most dominant color in avatar)
+.boosterrole random ( sets a random color for boosterrole )
+.boosterrole filter (Blacklist words for booster role names)
+.boosterrole filter list ( Blacklist words for booster role names list )
+
+also make the role gets deleted when this user is not boosting the server anymore / not having boosterrole
+
+add a welcome system and goodbye system and leveling message system and boosting message system, make EACH system editable
+example:
+.welcome enable
+.welcome channel (channel)
+.welcome reset (resets configuartion and disables welcome)
+.welcome test (tests the message in the welcome  channel)
+.welcome view (views the message code) 
+.welcome message (a message can also contain a embed code example preview in the first provided image and the code for the example preview image is :
+".boosts add #channel {embed}$v{message: {user.mention} *!*}$v{color: fdfdfd}$v{thumbnail: {user.avatar}}$v{title: **ty for boosting!**}$v{description:
+**Unlocked:**
+> -# custom booster role **( ,br )**
+> -# __pic perms__
+-# <:aaa_00:1404616367822344212> perks are removed after unboosting}$v{footer: discord.gg/{guild.vanity}}" this is a example code this is not the default embed its a example code for how the system works so users in different servers can customize the boosts messasge how they want and same for welcome / goodbyes
+
+also for the vc commands add this commands ".vc transfer @user" , ".vc kick @user"  ".vc ban @user" and also add unban , also if the vc owner just mentioned a user id its fine he doesnt have to mention the user
+
+complete / fix the leveling system:
+
+==================================================
+LEVELING SYSTEM
+==================================================
+
+Completely finish and polish the entire Leveling System.
+
+Do NOT rewrite the existing implementation.
+
+Extend the current system and make it production-ready.
+
+Implement every command below:
+
+levels
+levels leaderboard
+levels leaderboard rename
+levels messagemode
+levels setrate
+levels sync
+levels reset
+levels unlock
+levels lock
+levels cleanup
+levels config
+levels list
+levels ignore
+levels roles
+levels add
+levels remove
+levels update
+levels stackroles
+levels message
+levels message view
+levels messages
+
+Administrative commands:
+
+setxp
+removexp
+setlevel
+
+==================================================
+LEVELING FEATURES
+==================================================
+
+Implement all missing functionality including:
+
+• XP gain from messages
+• Configurable XP cooldown
+• Configurable XP rate multiplier
+• Random XP gain range
+• Anti-spam protection
+• Anti-AFK XP farming
+• Ignore channels
+• Ignore roles
+• Ignore bots
+• Ignore webhooks
+• Level-up announcements
+• Custom level-up messages
+• Level-up embeds
+• Level-up DM option
+• Level-up message channel selection
+• Multiple leaderboard styles
+• Server XP leaderboard
+• Rank cards
+• User rank command
+• XP progress bars
+• Level role rewards
+• Automatic role assignment
+• Automatic role removal
+• Stackable level roles
+• Non-stackable level roles
+• Sync existing members
+• XP reset
+• Level reset
+• Manual XP editing
+• Manual Level editing
+• Database persistence
+• Guild-specific settings
+• Proper permission checks
+• Proper cooldowns
+• Slash command support
+• Prefix command support
+
+==================================================
+RANK CARD
+==================================================
+
+Create a modern animated rank card showing:
+
+• Username
+• Avatar
+• Current Level
+• Current XP
+• Required XP
+• Progress Bar
+• Rank Position
+• Server Name
+• Accent color matching the bot theme
+
+==================================================
+LEADERBOARDS
+==================================================
+
+Support:
+
+• Pagination
+• Buttons
+• Top XP
+• Top Levels
+• Search member
+• Rename leaderboard title
+• Fast database queries
+• Cached rankings
+
+==================================================
+OPTIMIZATION
+==================================================
+
+Everything must:
+
+• Use the existing database
+• Be modular
+• Avoid duplicate code
+• Be optimized for large servers (100k+ members)
+• Be production-ready
+• Persist across restarts
+
+
+
+
+==================================================
+AUTOROLE & REACTIONS & GIVEAWAYS CATEGORY / COMMANDS
+==================================================
+autorole
+
+
+Set up automatic role assign on member join
+
+arguments
+
+none
+
+permissions
+
+none
+
+autorole add
+
+
+Adds a autorole and assigns on join to member
+
+arguments
+
+role
+
+permissions
+
+none
+
+autorole list
+
+
+View a list of every auto role
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Roles
+
+autorole reset
+
+
+Clears every autorole for guild
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Roles
+
+autorole remove
+
+
+Removes a autorole and stops assigning on join
+
+arguments
+
+role
+
+permissions
+
+Manage Guild
+
+Roles
+
+buttonrole
+
+
+No description given
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Roles
+
+buttonrole list
+
+
+No description given
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Roles
+
+buttonrole add
+
+
+No description given
+
+arguments
+
+message link
+
+role
+
+style
+
+emoji
+
+label
+
+permissions
+
+Manage Guild
+
+Roles
+
+buttonrole reset
+
+
+No description given
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Roles
+
+buttonrole removeall
+
+
+No description given
+
+arguments
+
+messagelink
+
+permissions
+
+Manage Guild
+
+Roles
+
+buttonrole remove
+
+
+No description given
+
+arguments
+
+message link
+
+index
+
+permissions
+
+Manage Guild
+
+Roles
+
+reactionrole
+
+
+Set up self-assignable roles with reactions
+
+arguments
+
+none
+
+permissions
+
+none
+
+reactionrole add
+
+
+Adds a reaction role to a message
+
+arguments
+
+messagelink
+
+reaction
+
+role
+
+permissions
+
+none
+
+reactionrole reset
+
+
+Clears every reaction role from guild
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Roles
+
+reactionrole removeall
+
+
+Removes all reaction roles from a message
+
+arguments
+
+messagelink
+
+permissions
+
+Manage Guild
+
+Roles
+
+reactionrole restore
+
+
+Choose whether reaction roles restore when members rejoin
+
+arguments
+
+option
+
+permissions
+
+Manage Guild
+
+Roles
+
+reactionrole list
+
+
+View a list of every reaction role
+
+arguments
+
+none
+
+permissions
+
+Manage Guild
+
+Roles
+
+reactionrole remove
+
+
+Removes a reaction role from a message
+
+arguments
+
+messagelink
+
+reaction
+
+permissions
+
+Manage Guild
+
+Roles
+
+giveaways
+
+
+No description given
+
+arguments
+
+none
+
+permissions
+
+none
+
+giveaways start
+
+
+No description given
+
+arguments
+
+channel
+
+duration
+
+winners
+
+prize
+
+permissions
+
+none
+
+giveaways reroll
+
+
+No description given
+
+arguments
+
+message link
+
+winners
+
+permissions
+
+none
+
+giveaways end
+
+
+No description given
+
+arguments
+
+message link
+
+permissions
+
+none
+
+giveaways list
+
+
+No description given
+
+arguments
+
+none
+
+permissions
+
+none
+
+giveaways edit
+
+
+No description given
+
+arguments
+
+none
+
+permissions
+
+none
+
+giveaways edit roles
+
+
+No description given
+
+arguments
+
+message link
+
+roles
+
+permissions
+
+none
+
+giveaways edit image
+
+
+No description given
+
+arguments
+
+message link
+
+url or attachment
+
+permissions
+
+none
+
+giveaways edit age
+
+
+No description given
+
+arguments
+
+message link
+
+days
+
+permissions
+
+none
+
+giveaways edit color
+
+
+No description given
+
+arguments
+
+message link
+
+color
+
+permissions
+
+none
+
+giveaways edit thumbnail
+
+
+No description given
+
+arguments
+
+message link
+
+url or attachment
+
+permissions
+
+none
+
+giveaways edit maxlevel
+
+
+No description given
+
+arguments
+
+message link
+
+level
+
+permissions
+
+none
+
+giveaways edit requiredroles
+
+
+No description given
+
+arguments
+
+message link
+
+roles
+
+permissions
+
+none
+
+giveaways edit stay
+
+
+No description given
+
+arguments
+
+message link
+
+days
+
+permissions
+
+none
+
+giveaways edit description
+
+
+No description given
+
+arguments
+
+message link
+
+text
+
+permissions
+
+none
+
+giveaways edit prize
+
+
+No description given
+
+arguments
+
+message link
+
+prize
+
+permissions
+
+none
+
+giveaways edit winners
+
+
+No description given
+
+arguments
+
+message link
+
+count
+
+permissions
+
+none
+
+giveaways edit host
+
+
+No description given
+
+arguments
+
+message link
+
+members
+
+permissions
+
+none
+
+giveaways edit duration
+
+
+No description given
+
+arguments
+
+message link
+
+date
+
+permissions
+
+none
+
+giveaways edit minlevel
+
+
+No description given
+
+arguments
+
+message link
+
+level
+
+permissions
+
+none
+
+giveaways cancel
+
+
+No description given
+
+arguments
+
+message link
+
+permissions
+
+none
+
+
+
+make the default prefix of the bot "," instead of "." also make sure in the helps commands and stuff it uses the prefix set ont he server not the default prefix , also in the roleplay file area commands make me able to choose (optional) a gif/ image links for every roleplay command so its more fun so when i say ",hug @user" it says for example "Woahh.. @user hugged @user for the 51th time! with a hugging gif"
+
+
+Before considering this prompt complete, compare every implemented feature against premium Discord bots such as Bleed, Greed.
+
+If any part of the Music, Fun, AI, Roleplay, Search, or Leveling systems is missing features commonly found in premium bots, implement those missing features as long as they fit the existing architecture.
+
+Do not leave placeholder implementations.
+
+Everything should feel polished, modern, modular, scalable, and production-ready.
+
+
+
+heres the bot RECOURSES so we can use them in commands:
+
+GUILDS variables:
+{guild.name} The guild’s name
+{guild.id} The guild’s ID
+{guild.count} The guild’s member count
+{guild.region} The guild’s voice region
+{guild.shard} The guild’s shard ID on bot
+{guild.owner_id} The guild’s owner ID
+{guild.created_at} The guild’s creation date in UTC
+{guild.created_at_timestamp} The guild’s creation date in UNIX
+{guild.emoji_count} The guild’s emoji count
+{guild.role_count} The guild’s role count
+{guild.boost_count} The guild’s boost count
+{guild.boost_tier} The guild’s boost tier, defaults to No Level if none
+{guild.preferred_locale} The guild’s preferred locale
+{guild.key_features} The guild’s list of features (possibly N/A)
+{guild.icon} The guild’s icon URL as a PNG (possibly N/A)
+{guild.banner} The guild’s banner URL as a PNG (possibly N/A)
+{guild.splash} The guild’s splash URL as a PNG (possibly N/A)
+{guild.discovery} The guild’s discovery splash URL as a PNG (possibly N/A)
+{guild.max_presences} The guild’s max presences amount
+{guild.max_members} The guild’s max members amount
+{guild.max_video_channel_users} The guild’s max video channel users
+{guild.afk_timeout} The guild’s AFK timeout in seconds
+{guild.afk_channel} The guild’s AFK channel (possibly N/A)
+{guild.channels} The guild’s list of text, voice & category channels (possibly N/A)
+{guild.channels_count} The guild’s total channel count
+{guild.text_channels} The guild’s list of text channels
+{guild.text_channels_count} The guild’s text channel count
+{guild.voice_channels} The guild’s list of voice channels
+{guild.voice_channels_count} The guild’s voice channel count
+{guild.category_channels} The guild’s list of category channels
+{guild.category_channels_count} The guild’s category channel count
+{guild.vanity} The guild’s custom vanity url
+
+User VARIABLES:
+{user} The user’s name and discriminator
+{user.id} The user’s ID
+{user.mention} The user’s mention
+{user.name} The user’s name
+{user.tag} The user’s discriminator
+{user.avatar} The user’s profile picture
+{user.guild_avatar} The user’s guild profile picture
+{user.display_avatar} The user’s available profile picture
+{user.joined_at} The user’s guild join date in UTC
+{user.joined_at_timestamp} The user’s guild join date in UNIX
+{user.created_at} The user’s account creation date in UTC
+{user.created_at_timestamp} The user’s account creation date in UNIX
+{user.display_name} The user’s current display name
+{user.boost} Yes/No if the user is boosting the guild
+{user.boost_since} The user’s initial guild boost date
+{user.boost_since_timestamp} The user’s initial guild boost date in UNIX
+{user.color} The user’s top role hex code
+{user.top_role} The user’s top role name, defaults to N/A
+{user.role_list} The user’s role list (possibly N/A)
+{user.role_text_list} The user’s role list in text (possibly N/A)
+{user.bot} Yes/No if the user is a bot
+{user.badges_icons} The user’s profile badges with emotes (possibly N/A)
+{user.badges} The user’s profile badges in text (possibly N/A)
+{user.join_position} The user’s join position
+{user.join_position_suffix} The user’s join position with suffix
+
+Channelvariables:
+{channel.name} The channel’s name
+{channel.id} The channel’s ID
+{channel.mention} The channel’s mention
+{channel.topic} The channel’s topic
+{channel.type} The channel’s type (text/news/..)
+{channel.category_id} The channel’s category ID (possibly N/A)
+{channel.category_name} The channel’s category name (possibly N/A)
+{channel.position} The channel’s position in the guild channel list
+{channel.slowmode_delay} The channel’s slowmode delay in seconds (defaults to 0)
+
+Leveling variables:
+{level.new_rank} Member’s new level at time of level up
+{level.user_xp} Member’s current XP
+
+Boosting Variables:
+{boost.count} Amount of times user has boosted
+{guild.boost_count} Overall guild boost count
+
+Date Variables:
+{date.now} Current date in PST
+{date.utc_timestamp} Current date as UNIX
+{date.now_proper} Better formatted date in PST
+{date.now_short} Short formatted date in PST
+{date.now_shorter} Shorter formatted date in PST
+{time.now} 12 hour timestamp in PST
+{time.now_military} 24 hour timestamp in PST
+{date.utc_now} Current date in UTC
+{date.utc_now_proper} Better formatted date in UTC
+{date.utc_now_short} Short formatted date in UTC
+{date.utc_now_shorter} Shorter formatted date in UTC
+{time.utc_now} 12 hour timestamp in UTC
+{time.utc_now_military} 24 hour timestamp in UTC
+
+
+Embeds
+Guide to understand the fundamentals of scripting embeds.
+
+​
+Structure
+Each parameter in the embed is represented by a key-value pair which is separated by a colon. For example, the title parameter will look like {title: hello {user}}. The {user} is a variable which will be filled in with the user’s display name.
+{ begins a parameter.
+: separates parameter from content.
+$v separates the parameters.
+} ends a parameter.
+​
+Parameters
+url - The embed URL. (https://..)
+color - The embed color. (#FFFFFF)
+title - The embed title. (hello {user})
+description - The embed description. (hello {user})
+image - The embed image URL. (https://..)
+thumbnail - The embed thumbnail URL. (https://..)
+timestamp - The embed timestamp. (NO ARGUMENTS)
+The following parameters require additional arguments which are separated by &&.
+Author
+
+name - The author’s name.
+icon - The author’s icon. Optional
+url - The author’s URL. Optional
+
+Syntax
+
+Example
+{author: name && icon && url}
+Field
+
+name - The field name.
+value - The field value.
+Include inline at the end of the field to make it inline.
+
+Syntax
+
+Example
+{field: name && value}
+Footer
+
+text - The footer text.
+icon - The footer icon. Optional
+
+Syntax
+
+Example
+{footer: text && icon}
+Button
+
+type - Link, Blurple, Green, Grey or Red.
+label - The button label.
+url - The button URL or emoji.
+
+Syntax
+
+Example
+{button: type && label && url && enabled|disabled}
+
+
+Syntax
+General explanation of the syntax used for commands.
+
+​
+Formatting a duration
+When a command requires a duration parameter, you format it as a number followed by a unit. The unit can be one of the following:
+s for seconds.
+m for minutes.
+h for hours.
+d for days.
+w for weeks.
+For example, 1d represents one day, and 1w represents one week. You can also combine units, for example, 1w2d represents one week and two days.
+
+Correct
+
+Incorrect
+,timeout @member 1h
+,timeout @member 2d3h
+​
+Removing entries via ID
+For some commands, you can remove entries by their ID. The ID for entry can be found with the list subcommand. After you have the ID, you can remove the entry with the remove subcommand followed by the format: select:ID.
+
+​
+Flag Punishments
+When a command has a --do flag, you can use it to specify the action to take. The available actions are:
+warn to warn the user.
+jail to jail the user.
+kick to kick the member from the server.
+ban to ban the member from the server.
+delete to delete the message if applicable.
+stripstaff to remove the staff role from the member.
+This is only available for antinuke commands.
+This will only work for roles set via the bind staff command.
+You can find more information about binding staff roles in the moderation section.
+For example, to warn a user, you would use --do warn.
+
+
+Permissions
+All available permissions within bleed.
+
+Permission Description
+administrator Allows the user to perform all administrative actions.
+ban_members Allows the user to ban members.
+kick_members Allows the user to kick members.
+manage_guild Allows the user to manage the guild.
+manage_channels Allows the user to manage channels.
+manage_roles Allows the user to manage roles.
+manage_messages Allows the user to manage messages in text channels.
+view_audit_log Allows the user to view the audit log.
+manage_webhooks Allows the user to manage webhooks.
+manage_expressions Allows the user to manage emojis.
+mute_members Allows the user to mute members in voice channels.
+deafen_members Allows the user to deafen members in voice channels.
+move_members Allows the user to move members in voice channels.
+manage_nicknames Allows the user to manage nicknames.
+mention_everyone Allows the user to mention everyone in messages.
+view_guild_insights Allows the user to view guild insights.
+external_emojis Allows the user to use external emojis.
+change_nickname Allows the user to change their nickname.

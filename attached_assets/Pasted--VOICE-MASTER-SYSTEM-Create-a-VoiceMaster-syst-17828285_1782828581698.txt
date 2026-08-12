@@ -1,0 +1,320 @@
+==========================
+VOICE MASTER SYSTEM
+==========================
+
+Create a VoiceMaster system similar to popular VoiceMaster bots.
+
+Command:
+.voicemaster setup
+
+Requirements:
+
+- This command can ONLY be used by the ADMIN_USER_ID already defined in the bot.
+- When executed, automatically create:
+
+Category:
+VoiceMaster
+
+Text Channel:
+interface
+
+Voice Channel:
+Join to Create
+
+Store the IDs so they continue working after bot restarts.
+
+When a user joins "Join to Create":
+
+- Automatically create a voice channel named:
+
+<DisplayName>'s VC
+
+Example:
+Frostancex's VC
+
+Move the user into their newly created VC automatically.
+
+Track the owner of every temporary VC.
+
+Delete the VC automatically when it becomes empty.
+
+If everyone leaves the VC, delete it immediately regardless of who was inside.
+It does NOT matter if the remaining person was the owner or another random member.
+If the VC has zero members, delete it.
+
+==========================
+VOICE MASTER INTERFACE
+==========================
+
+In the "interface" channel automatically send ONE permanent embed.
+
+The embed should look modern and professional like the screenshots.
+
+Buttons should include ONLY:
+
+🔒 Lock
+🔓 Unlock
+✏ Rename
+👑 Claim
+➕ Increase User Limit
+➖ Decrease User Limit
+📄 View Channel Information
+🗑 Delete
+
+DO NOT implement or mention the Ghost feature.
+
+Buttons only work if:
+
+- The user is currently inside a temporary VoiceMaster VC.
+- The VC belongs to that user.
+
+Exception:
+
+Claim should only work when:
+
+- The original owner is no longer inside the VC.
+- Another member currently inside the VC presses Claim.
+
+Button behavior:
+
+Lock
+- Deny Connect permission for @everyone.
+
+Unlock
+- Restore Connect permission.
+
+Reveal
+- Make the VC visible if hidden.
+
+Rename
+- Open a modal asking for the new VC name.
+
+Increase Limit
+- Increase user limit by 1.
+
+Decrease Limit
+- Decrease user limit by 1.
+
+Delete
+- Instantly delete the VC.
+
+View Channel Information
+Display an embed showing:
+
+Owner
+Created Time
+Current Members
+User Limit
+Channel ID
+
+==========================
+RAID COMMAND
+==========================
+
+Add command:
+
+.raid <message>
+
+Example:
+
+.raid ROBLOX SERVER 2
+
+Only ADMIN_USER_ID can use this command.
+
+Bot sends inside channel:
+
+1521503302192463872
+
+Message:
+
+<@&1521111515183452201>
+
+🚨 NEW RAID
+
+Information:
+ROBLOX SERVER 2
+
+Timestamp included.
+
+Nice looking red embed.
+
+==========================
+TICKET SYSTEM
+==========================
+
+Command:
+
+.ticket setup
+
+Only ADMIN_USER_ID.
+
+When executed automatically create:
+
+Category:
+Support
+
+Text Channel:
+verify
+
+Role:
+unverified
+
+Permissions:
+
+unverified role cannot view any channels except verify.
+
+verify channel is visible to everyone.
+
+Inside verify automatically send ONE permanent embed similar to the screenshots.
+
+Title:
+
+Verification
+
+Description:
+
+Press the button below to create a verification ticket.
+
+Button:
+
+📩 Create Ticket
+
+==========================
+TICKET CREATION
+==========================
+
+When someone presses Create Ticket:
+
+Create a private channel named
+
+ticket-0001
+ticket-0002
+ticket-0003
+
+etc.
+
+Only these people can see it:
+
+Ticket creator
+
+Administrators
+
+The bot
+
+Nobody else.
+
+Automatically send an embed similar to the screenshots.
+
+Above the embed mention the ticket creator.
+
+Example:
+
+@User
+
+Support will be with you shortly.
+Please be patient.
+
+Then display the verification format.
+
+Default format:
+
+VERIFICATION FORMAT
+
+What is your total score?
+
+How many kills do you have?
+
+What LVL are you?
+
+Who invited you?
+
+What is your KDR?
+
+Join the Roblox group:
+https://www.roblox.com/groups/34291590/Apostel
+
+At the bottom include:
+
+🔒 Close Ticket
+
+Close button:
+
+Delete the ticket after confirmation.
+
+==========================
+EDITABLE TICKET FORMAT
+==========================
+
+Create command:
+
+.ticketformat edit <text>
+
+Example:
+
+.ticketformat edit
+
+VERIFICATION FORMAT
+
+Question 1
+
+Question 2
+
+Question 3
+
+Question 4
+
+Question 5
+
+Only ADMIN_USER_ID can use this.
+
+Save the format permanently in the bot's JSON data so it survives restarts.
+
+Every future ticket should use the edited format automatically.
+
+==========================
+PERSISTENT STORAGE
+==========================
+
+Store all IDs in the existing data.json including:
+
+VoiceMaster Category
+
+Interface Channel
+
+Join To Create Channel
+
+Verify Channel
+
+Ticket Category
+
+Unverified Role
+
+Interface Message ID
+
+Ticket Message ID
+
+Ticket Counter
+
+Ticket Format
+
+VoiceMaster Owner Mapping
+
+Everything must continue working after restarting the bot.
+
+==========================
+GENERAL REQUIREMENTS
+==========================
+
+- Keep all existing commands.
+- Keep all existing moderation features.
+- Keep all existing streak systems.
+- Keep all existing warning systems.
+- Keep all existing GuessWord systems.
+- Use Discord.js v14.
+- Use buttons and modals.
+- Use embeds matching Discord's modern style.
+- Handle errors gracefully.
+- Prevent duplicate setup commands if already configured.
+- Automatically recreate interface embeds if deleted.
+- Organize the new code into separate functions/classes instead of one huge file.
+- Comment the code clearly.

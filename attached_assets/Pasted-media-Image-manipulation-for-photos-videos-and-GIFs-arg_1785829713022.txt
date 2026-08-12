@@ -1,0 +1,493 @@
+media
+
+
+Image manipulation for photos, videos and GIFs
+
+arguments
+
+none
+
+permissions
+
+none
+
+media flag
+
+
+Put a selected image onto a flag GIF
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media gifmagik
+
+
+Create a gif of the magik filter being applied on a given photo
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media toaster
+
+
+Generate your image on a toaster GIF
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media pixelate
+
+
+Pixelate a given image
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media billboard
+
+
+Put your photo on a billboard
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media bloom
+
+
+No description given
+
+arguments
+
+url or attachment
+
+radius
+
+brightness
+
+sharpness
+
+permissions
+
+Attach Files
+
+media speed
+
+
+Change the speed of a video
+
+arguments
+
+url or attachment
+
+multiplier
+
+permissions
+
+Attach Files
+
+media motivate
+
+
+Create a motivation meme using your image and custom text
+
+arguments
+
+url or attachment
+
+top
+
+bottom
+
+permissions
+
+Attach Files
+
+media rubiks
+
+
+Put your image onto a rubiks cube
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media flag2
+
+
+Put a selected image onto a flag GIF
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media tattoo
+
+
+Tattoo your photo onto a body
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media spin
+
+
+Create a gif of your selected photo rotating clockwise
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media fisheye
+
+
+Apply a fisheye filter onto a photo
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media magik
+
+
+Apply the Magik filter to a photo
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media grayscale
+
+
+Apply a greyscale filter to a photo
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media blur
+
+
+Blur an image
+
+arguments
+
+url or attachment
+
+strength
+
+permissions
+
+Attach Files
+
+media circuitboard
+
+
+Put your picture on a circuitboard GIF
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media caption
+
+
+Create your own caption meme using an image
+
+arguments
+
+url or attachment
+
+text
+
+permissions
+
+Attach Files
+
+media neon
+
+
+Create a neon effect using the outlines in the picture provided
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media scramble
+
+
+Randomise frames within the given media
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media deepfry
+
+
+Apply a deepfried filter to a photo
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media fortune
+
+
+Put a given image inside a fortune cookie
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media valentine
+
+
+Use your photo in a valentines gif
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media invert
+
+
+Invert an image's colours
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media swirl
+
+
+Apply a swirl filter to a photo
+
+arguments
+
+url or attachment
+
+strength
+
+permissions
+
+Attach Files
+
+media speechbubble
+
+
+Create a quotation meme using a photo
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media heart
+
+
+Create a heart gif with your desired photo and caption
+
+arguments
+
+url or attachment
+
+text
+
+permissions
+
+Attach Files
+
+media book
+
+
+Put your photo in a book
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media reverse
+
+
+Reverse the playback of a video
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media meme
+
+
+Create a top and bottom text meme
+
+arguments
+
+url or attachment
+
+top
+
+bottom
+
+permissions
+
+Attach Files
+
+media rainbow
+
+
+Apply an animated rainbow color effect to your photo
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media zoom
+
+
+Create a zooming gif using your photo
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media zoomblur
+
+
+Apply a zoom blur effect onto your photo
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files
+
+media spread
+
+
+Apply a paint spread filter to a photo
+
+arguments
+
+url or attachment
+
+strength
+
+permissions
+
+Attach Files
+
+media wormhole
+
+
+Create a wormhole animation using a photo
+
+arguments
+
+url or attachment
+
+permissions
+
+Attach Files

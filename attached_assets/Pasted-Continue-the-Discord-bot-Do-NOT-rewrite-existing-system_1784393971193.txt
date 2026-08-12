@@ -1,0 +1,286 @@
+Continue the Discord bot.
+
+Do NOT rewrite existing systems.
+
+Only extend the current implementation.
+
+Everything must be production-ready.
+
+==================================================
+MUSIC SYSTEM
+==================================================
+
+Completely finish the entire music system.
+
+Implement every command:
+
+play
+queue
+queue remove
+queue move
+queue shuffle
+queue empty
+pause
+resume
+skip
+disconnect
+volume
+rewind
+fastforward
+shuffle
+repeat
+
+Implement every preset:
+
+vaporwave
+karaoke
+nightcore
+boost
+flat
+chipmunk
+piano
+metal
+vibrato
+8d
+soft
+active
+
+Requirements:
+
+• Lavalink support
+• Queue persistence
+• Autoplay
+• Loop queue
+• Loop song
+• Playlist support
+• Spotify links
+• YouTube search
+• SoundCloud support
+• Progress bar
+• Volume memory
+• Beautiful embeds
+• Lyrics integration
+• Button controls
+• Slash support
+• Prefix support
+• Auto disconnect
+• Voice reconnection
+• Rate limit safe
+
+==================================================
+ROLEPLAY SYSTEM
+==================================================
+
+Implement every roleplay command from the roadmap.
+
+Examples include:
+
+hug
+kiss
+pat
+cuddle
+slap
+bite
+wave
+dance
+laugh
+cry
+smile
+wink
+poke
+punch
+tickle
+nom
+nuzzle
+clap
+yay
+yes
+thumbsup
+sleep
+happy
+sad
+angry
+shy
+sip
+peek
+bleh
+brofist
+celebrate
+cheers
+confused
+cool
+drool
+facepalm
+headbang
+lick
+love
+mad
+nervous
+nyah
+pout
+scared
+shrug
+sigh
+slowclap
+smack
+smug
+sneeze
+sorry
+stare
+surprised
+sweat
+tired
+woah
+yawn
+and every remaining roleplay command.
+
+Requirements:
+
+GIF API
+Cooldowns
+Beautiful embeds
+Interaction support
+Random responses
+Error handling
+
+==================================================
+FUN COMMANDS
+==================================================
+
+Finish every remaining fun command.
+
+Including:
+
+lyrics
+duckduckgo
+google
+duckduckgoimage
+image
+reverseimage
+giphy
+tenor
+book
+movie
+movie expand
+game
+anime
+manga
+character
+tvshow
+wolfram
+ocr
+ocrtr
+translate
+tts
+tts channel
+lego
+makegif
+transparent
+quote
+blacktea
+tictactoe
+tictactoe leaderboard
+tictactoe statistics
+tags
+juul
+tone
+steal
+
+Finish every subcommand as listed in the roadmap.
+
+==================================================
+AI FEATURES
+==================================================
+
+Implement:
+
+AI Chat
+Conversation memory
+Summaries
+Explain text
+Rewrite text
+Grammar fixing
+Translation
+Image OCR
+Search assistant
+Context awareness
+Rate limiting
+
+==================================================
+IMAGE UTILITIES
+==================================================
+
+Finish:
+
+rotate
+compress
+invert
+transparent
+lego
+makegif
+ocr
+ocrtr
+
+Support:
+
+URLs
+Attachments
+Discord CDN
+Error handling
+
+==================================================
+SEARCH COMMANDS
+==================================================
+
+Complete:
+
+Google
+DuckDuckGo
+Image search
+Reverse image
+Book search
+Movie search
+TV search
+Anime
+Manga
+Character
+Wolfram
+
+==================================================
+HELP MENU
+==================================================
+
+Paginated help.
+
+Maximum 10 commands per page.
+
+Buttons:
+
+Previous
+Next
+Home
+Category selector
+
+No giant embeds.
+
+==================================================
+QUALITY
+==================================================
+
+Everything must:
+
+Use existing architecture.
+
+No duplicate code.
+
+No placeholders.
+
+Proper permissions.
+
+Proper cooldowns.
+
+Proper error handling.
+
+Database integration.
+
+Production ready.

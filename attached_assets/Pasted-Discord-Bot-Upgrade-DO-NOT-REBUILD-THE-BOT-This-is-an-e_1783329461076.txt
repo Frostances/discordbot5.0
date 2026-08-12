@@ -1,0 +1,866 @@
+Discord Bot Upgrade (DO NOT REBUILD THE BOT)
+
+This is an existing Discord.js bot. Do NOT rewrite or replace the project. Extend the current architecture while keeping all existing commands working.
+
+General Requirements
+Keep the existing codebase and folder structure.
+Use modular command/event files.
+Every feature must support multiple Discord servers.
+Every guild must have completely separate configuration and data.
+Never use global variables for guild settings.
+Store every guild's settings in a database (SQLite/PostgreSQL/MongoDB depending on current project).
+Every command must have:
+Permission checks
+Error handling
+Cooldowns where necessary
+Slash-command ready architecture (while keeping prefix commands)
+Embed responses
+Every configurable feature must be configurable through commands instead of editing IDs inside index.js.
+Add a help system that automatically lists every command by category.
+Ticket System Revamp
+
+Modify the existing ticket system instead of replacing it.
+
+Ticket Setup
+
+During setup:
+
+Create ONLY:
+
+Unverified role
+
+Do NOT create or use any Verified role.
+
+Support Roles
+
+Add:
+
+.ticket support add @role
+
+.ticket support remove @role
+
+Support roles are stored per server.
+
+Only support roles may:
+
+View tickets
+Close tickets
+Delete tickets
+Ticket Visibility
+
+When ticket opens:
+
+Visible:
+
+Ticket opener
+Support roles
+
+Hidden:
+
+Everyone else
+
+When ticket closes:
+
+DO NOT delete the channel.
+
+Instead:
+
+Hide channel from ticket opener
+Keep visible for support roles
+Keep logs intact
+Ticket Buttons
+
+Current:
+
+Close
+
+Replace with:
+
+Close
+Delete
+
+Close:
+
+hides ticket from opener only
+
+Delete:
+
+permanently deletes ticket
+
+Only support roles can press Delete.
+
+Staff System Revamp
+
+Add command restrictions per role.
+
+Commands:
+
+.staff restrict @role command
+
+Example
+
+.staff restrict @mod ban
+
+Now moderators cannot use
+
+.ban
+
+Instead reply
+
+"Woopsie, this command is restricted for your role."
+
+Add
+
+.staff unrestrict @role command
+
+Add
+
+.staff restrictions
+
+to list all restrictions.
+
+Restrictions are per guild.
+
+Mass Role Commands
+
+Add
+
+.role add all @role
+
+Adds role to every HUMAN member.
+
+Ignore:
+
+Bots
+
+Applications
+
+System users
+
+Add
+
+.role remove all @role
+
+Removes role from every human member.
+
+Replace Hardcoded IDs
+
+Remove every hardcoded value like
+
+UNMUTE_CHANNEL_ID
+
+TOP_10_VC_CHANNEL_ID
+
+STREAK_ROLE_ID
+
+VC_LOG_CHANNEL_ID
+
+Replace them with configuration commands.
+
+Example
+
+.settings vc-log #channel
+
+.settings unmute-channel #channel
+
+.settings streak-role @role
+
+.settings top10vc #channel
+
+Everything stored per guild.
+
+Multi Server Support
+
+Every server must have independent:
+
+Ticket settings
+
+Economy
+
+Levels
+
+Welcome
+
+Logs
+
+Reaction roles
+
+Verification
+
+Giveaways
+
+Music queues
+
+Staff roles
+
+Anti Raid
+
+Anti Nuke
+
+XP
+
+Restrictions
+
+Aliases
+
+Settings
+
+Nothing should leak between servers.
+
+Help System
+
+Create
+
+.help
+
+Displays categories.
+
+Example
+
+Moderation
+
+Tickets
+
+Music
+
+Fun
+
+Reaction
+
+Giveaways
+
+Economy
+
+Security
+
+Levels
+
+Settings
+
+Staff
+
+Utility
+
+Then
+
+.help moderation
+
+lists every moderation command.
+
+Command Aliases
+
+Allow shortcuts for every command.
+
+Example
+
+.alias add b ban
+
+Now
+
+.b
+
+runs
+
+.ban
+
+Music System
+
+Implement full music module.
+
+Commands include
+
+play
+
+queue
+
+queue remove
+
+queue move
+
+queue shuffle
+
+queue empty
+
+pause
+
+resume
+
+skip
+
+shuffle
+
+repeat
+
+volume
+
+disconnect
+
+rewind
+
+fastforward
+
+preset
+
+All preset filters
+
+Use Lavalink or DisTube.
+
+Each guild has its own queue.
+
+Auto Moderation
+
+Implement:
+
+Spam filter
+
+Caps filter
+
+Invite filter
+
+Link filter
+
+Mention filter
+
+Emoji spam
+
+Attachment filter
+
+Profanity filter
+
+Timeouts
+
+Warnings
+
+Auto bans
+
+Auto kicks
+
+Whitelist
+
+Per channel configuration
+
+Per role exemption
+
+Anti Nuke
+
+Implement complete Anti Nuke module.
+
+Modules:
+
+Channel protection
+
+Role delete protection
+
+Ban protection
+
+Kick protection
+
+Webhook protection
+
+Bot add protection
+
+Emoji protection
+
+Vanity protection
+
+Permission protection
+
+Whitelist
+
+Admins
+
+Configuration
+
+Logging
+
+Commands exactly matching:
+
+antinuke
+
+antinuke admin
+
+antinuke channel
+
+antinuke webhook
+
+antinuke kick
+
+antinuke permissions
+
+antinuke whitelist
+
+antinuke ban
+
+antinuke role
+
+antinuke list
+
+antinuke botadd
+
+antinuke emoji
+
+antinuke config
+
+antinuke vanity
+
+Anti Raid
+
+Implement complete Anti Raid module.
+
+Features
+
+Mass join detection
+
+Bot raid detection
+
+New account detection
+
+Avatar requirement
+
+Temporary whitelist
+
+Raid state
+
+Configuration
+
+Commands
+
+antiraid
+
+antiraid state
+
+antiraid avatar
+
+antiraid config
+
+antiraid whitelist
+
+antiraid whitelist view
+
+antiraid massjoin
+
+antiraid newaccounts
+
+Level System
+
+Implement complete XP system.
+
+Features
+
+XP gain
+
+Multipliers
+
+Ignored channels
+
+Ignored roles
+
+Role rewards
+
+Leaderboard
+
+Custom level messages
+
+Sync roles
+
+XP editing
+
+Stack roles
+
+Commands exactly matching:
+
+levels
+
+levels leaderboard
+
+levels add
+
+levels remove
+
+levels update
+
+levels reset
+
+levels unlock
+
+levels lock
+
+levels config
+
+levels roles
+
+levels list
+
+levels ignore
+
+levels stackroles
+
+levels message
+
+levels messages
+
+levels messagemode
+
+levels cleanup
+
+levels sync
+
+levels setrate
+
+setxp
+
+removexp
+
+setlevel
+
+Economy
+
+Create complete economy.
+
+Include
+
+Daily
+
+Weekly
+
+Balance
+
+Transfer
+
+Inventory
+
+Shop
+
+Work
+
+Crime
+
+Rob
+
+Deposit
+
+Withdraw
+
+Leaderboard
+
+Items
+
+Admin commands
+
+Everything per guild.
+
+Verification
+
+Add configurable verification system.
+
+Support:
+
+Button verification
+
+Captcha verification
+
+Role assignment
+
+Logs
+
+Timeouts
+
+Verification panel
+
+Only create Unverified role during setup.
+
+Welcome & Logs
+
+Support:
+
+Welcome messages
+
+Leave messages
+
+Join logs
+
+Boost logs
+
+Moderation logs
+
+Voice logs
+
+Message edit logs
+
+Delete logs
+
+Role logs
+
+Nickname logs
+
+Channel logs
+
+Webhook logs
+
+Reaction Roles
+
+Support:
+
+Buttons
+
+Dropdowns
+
+Multiple roles
+
+Single role
+
+Unique role
+
+Persistent panels
+
+Reaction System
+
+Implement full reaction trigger system exactly matching requested commands.
+
+Including:
+
+reaction
+
+reaction add
+
+reaction delete
+
+reaction deleteall
+
+reaction list
+
+reaction owner
+
+reaction clear
+
+reaction messages
+
+reaction messages list
+
+previousreact
+
+previousreact add
+
+previousreact delete
+
+previousreact clear
+
+previousreact owner
+
+noselfreact
+
+noselfreact punishment
+
+noselfreact emoji
+
+etc.
+
+Giveaways
+
+Implement complete giveaway system.
+
+Features
+
+Timed giveaways
+
+Role requirements
+
+Level requirements
+
+Age requirements
+
+Images
+
+Thumbnails
+
+Editing
+
+Reroll
+
+Cancel
+
+End
+
+Multiple winners
+
+Everything persistent.
+
+Poll System
+
+Create
+
+.poll
+
+Quick polls
+
+Multiple choice
+
+Timed polls
+
+Anonymous polls
+
+Results
+
+AI Features
+
+Add AI chatbot.
+
+Configurable channels.
+
+Conversation memory per channel.
+
+Commands
+
+.ai enable
+
+.ai disable
+
+.ai channel
+
+.ai reset
+
+.ai personality
+
+Snipe System
+
+Implement
+
+snipe
+
+editsnipe
+
+reactionsnipe
+
+reactionhistory
+
+clearsnipe
+
+Persistent cache.
+
+Roleplay
+
+Implement complete roleplay system with every command listed in my specification.
+
+Every command returns high quality anime GIF embeds.
+
+Moderation
+
+Expand moderation to include all moderation commands from my specification including:
+
+Warnings
+
+Timeout
+
+Mute
+
+Tempban
+
+Softban
+
+Hardban
+
+Role management
+
+Lockdown
+
+Purge variants
+
+Notes
+
+Case logs
+
+Proofs
+
+History
+
+Nickname forcing
+
+Sticky roles
+
+Raid cleanup
+
+Thread management
+
+Permissions
+
+Voice moderation
+
+Everything persistent.
+
+Database
+
+Everything must be stored.
+
+No JSON files.
+
+Store:
+
+Guild settings
+
+Levels
+
+Economy
+
+Warnings
+
+Cases
+
+Restrictions
+
+Aliases
+
+Music settings
+
+Verification
+
+Tickets
+
+Reaction roles
+
+Giveaways
+
+Configurations
+
+Logs
+
+XP
+
+Role rewards
+
+Anti Nuke
+
+Anti Raid
+
+Everything.
+
+UX Improvements
+
+Make the bot extremely user-friendly.
+
+Use beautiful embeds.
+
+Buttons.
+
+Select menus.
+
+Pagination.
+
+Confirmation dialogs.
+
+Autocomplete where possible.
+
+Clear error messages.
+
+Professional formatting.
+
+Consistent colors.
+
+Fast response times.
+
+Final Requirements
+Do not remove or break existing commands.
+Refactor duplicated code where necessary.
+Keep performance optimized.
+Ensure every feature is configurable via commands.
+Ensure every module works independently per server.
+Produce production-quality code with comments and clean architecture.

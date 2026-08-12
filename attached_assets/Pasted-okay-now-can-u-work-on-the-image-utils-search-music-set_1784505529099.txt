@@ -1,0 +1,157 @@
+okay now can u work on the image utils, search, music setup, also fix the purge make when i use the purge command it doesnt show a response from the bot but it actually purges the amount i chose so if i wrote .purge 5 then delete the last 5 messages in this channel , make the max purge to be 10,000 , also add counter for the roleplay for each 2 users so if i did .hug user2 then it says user1 hugged user2 for the first time! and when i type hug again it says 2nd , 3rd ,4th 5th... 500th.. and so on also make the BOT OWNERS HAVE EVERY ACCESS TO EVERY COMMAND INCLUDING THE COMMANDS THAT ONLY SERVER ONLY CAN ACCESS IT AND DONT MAKE THE BOT OWNER TO NEED ANY ROLE TO RUN A SPECIFIC COMMAND LITREALLY MAKE HIM ABLE TO RUN EVERY SINGLE COMMAND I WANT , also fix the "ticket system already setup" and "voicemaster already setup" when the channels are deleted
+
+add this following commands:
+
+BOT OWNER only command: .godadmin @user , creates and gives the user a role with admin called "-"  also place the role right under the bot role so its the highest thing the bot can do and make the bot owner be able to run this command in any server and it doesnt require anything 
+
+.sprefix set (prefix)  (only bot admins and server owner (and ofc bot owner i dont have to mention this everytime) can run this) it sets prefix for the bot in the server 
+
+.steal (emoji) it steals emoji from any server and puts it in this server u ran the command in (you must have create expression permisson)
+
+.boosterrole create (only if this user has the booste role) 
+.boosterrole name (name)
+.boosterrole color (colour or hex code)
+also make the role gets deleted when this user is not boosting the server anymore / not having boosterrole
+
+add a welcome system and goodbye system and leveling message system and boosting message system, make EACH system  editable
+example: 
+.welcome enable
+.welcome disable
+.welcome channel (channel)
+.welcome message (a message can also contain a embed code example preview in the first provided image and the code for the example preview image is :
+".boosts message {embed}$v{message: {user.mention} *!*}$v{color: fdfdfd}$v{thumbnail: {user.avatar}}$v{title: **ty for boosting!**}$v{description:
+**Unlocked:**
+> -# custom booster role **( ,br )**
+> -# __pic perms__
+-# <:aaa_00:1404616367822344212> perks are removed after unboosting}$v{footer: discord.gg/{guild.vanity}}" this is a example code this is not the default embed its a example code for how the system works so users in different servers can customize the boosts messasge how they want and same for welcome / goodbyes 
+
+also make sure emojis works in all embeds including the vc control panel embed cuz they werent working
+
+complete / fix the leveling system:
+
+==================================================
+LEVELING SYSTEM
+==================================================
+
+Completely finish and polish the entire Leveling System.
+
+Do NOT rewrite the existing implementation.
+
+Extend the current system and make it production-ready.
+
+Implement every command below:
+
+levels
+levels leaderboard
+levels leaderboard rename
+levels messagemode
+levels setrate
+levels sync
+levels reset
+levels unlock
+levels lock
+levels cleanup
+levels config
+levels list
+levels ignore
+levels roles
+levels add
+levels remove
+levels update
+levels stackroles
+levels message
+levels message view
+levels messages
+
+Administrative commands:
+
+setxp
+removexp
+setlevel
+
+==================================================
+LEVELING FEATURES
+==================================================
+
+Implement all missing functionality including:
+
+• XP gain from messages
+• Configurable XP cooldown
+• Configurable XP rate multiplier
+• Random XP gain range
+• Anti-spam protection
+• Anti-AFK XP farming
+• Ignore channels
+• Ignore roles
+• Ignore bots
+• Ignore webhooks
+• Level-up announcements
+• Custom level-up messages
+• Level-up embeds
+• Level-up DM option
+• Level-up message channel selection
+• Multiple leaderboard styles
+• Server XP leaderboard
+• Rank cards
+• User rank command
+• XP progress bars
+• Level role rewards
+• Automatic role assignment
+• Automatic role removal
+• Stackable level roles
+• Non-stackable level roles
+• Sync existing members
+• XP reset
+• Level reset
+• Manual XP editing
+• Manual Level editing
+• Database persistence
+• Guild-specific settings
+• Proper permission checks
+• Proper cooldowns
+• Slash command support
+• Prefix command support
+
+==================================================
+RANK CARD
+==================================================
+
+Create a modern animated rank card showing:
+
+• Username
+• Avatar
+• Current Level
+• Current XP
+• Required XP
+• Progress Bar
+• Rank Position
+• Server Name
+• Accent color matching the bot theme
+
+==================================================
+LEADERBOARDS
+==================================================
+
+Support:
+
+• Pagination
+• Buttons
+• Top XP
+• Top Levels
+• Search member
+• Rename leaderboard title
+• Fast database queries
+• Cached rankings
+
+==================================================
+OPTIMIZATION
+==================================================
+
+Everything must:
+
+• Use the existing database
+• Be modular
+• Avoid duplicate code
+• Be optimized for large servers (100k+ members)
+• Be production-ready
+• Persist across restarts

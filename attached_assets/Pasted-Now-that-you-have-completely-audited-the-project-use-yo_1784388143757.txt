@@ -1,0 +1,95 @@
+Now that you have completely audited the project, use your audit as the source of truth for all future work.
+
+Do NOT rewrite working systems.
+Do NOT replace working code.
+Only extend, complete, optimize, and fix existing implementations.
+
+This is Prompt 1.
+
+Your objective is to completely finish the Moderation System and all of its supporting infrastructure.
+
+Requirements:
+
+• Complete every moderation command that is missing.
+• Finish any partially implemented moderation commands.
+• Fix any broken moderation commands.
+• Ensure every command properly integrates into the existing permission system.
+• Every moderation action must create proper case logs.
+• Every moderation action must support optional reasons where applicable.
+• Every moderation action must support logging.
+• Every moderation action must be stored per guild.
+• Ensure all moderation commands work with the existing help system.
+
+Complete every missing command from the moderation category including (but not limited to):
+
+- Ban
+- Tempban
+- Softban
+- Hardban
+- Unban
+- Unbanall
+- Jail
+- Unjail
+- Mute
+- Unmute
+- Timeout
+- Untimeout
+- Warn
+- Warnings
+- History
+- Caselog
+- Notes
+- Proof
+- Modstats
+- Moderation History
+- Thread management
+- Lock
+- Unlock
+- Lockdown
+- Slowmode
+- Purge (all subcommands)
+- Role management (all subcommands)
+- Temprole
+- Sticky Roles
+- Restrict Commands
+- Setup
+- Rename
+- Nickname management
+- Topic
+- Hide
+- Unhide
+- Talk
+- Drag
+- Moveall
+- Raid
+- Recent Ban
+- New Members
+- Nuke Scheduler
+- Dump
+- Clear Invites
+- Permissions
+- Setup Mute
+
+Every subcommand listed in my specifications must exist and function correctly.
+
+Improve:
+
+• Case logging
+• Permission validation
+• Error handling
+• Confirmation embeds
+• Success embeds
+• Pagination
+• Database storage
+• Performance
+• Duplicate code removal
+
+Help Command
+
+The help command must now display only 10 commands per page with Previous/Next buttons.
+
+No command category should dump hundreds of commands into one embed.
+
+Everything must be modular, production-ready, optimized, and match the style of premium Discord bots like Evict, Sapphire, Wick, and Dyno.
+
+Before finishing, verify every moderation command is registered, reachable, and fully functional.

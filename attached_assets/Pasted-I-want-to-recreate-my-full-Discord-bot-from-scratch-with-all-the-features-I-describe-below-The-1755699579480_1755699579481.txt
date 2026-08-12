@@ -1,0 +1,62 @@
+I want to recreate my **full Discord bot** from scratch, with all the features I describe below. The bot must be fully functional, error-free, and ready to run in a Node.js environment with Discord.js v14+. I need a single `index.js` file that includes everything, properly structured, with no duplicate variable declarations, and ready to paste into Replit.
+
+**Features required:**
+
+1. **BlackTea Game**
+- A word-guessing game using a large dictionary (300k+ words). and ill download a  "words_alpha.txt" file that has over 300k english words please detect the words from it
+- Track wins per user in a JSON file.
+- Award a role after 5 wins (`BLACKTEA_ROLE_ID`).
+- Send messages for correct guesses, incorrect guesses, and game start.
+- Prevent duplicate guesses and only allow guesses in the correct channel.
+- Include a `.blacktea` command to start the game. and `.blacktea stats` to see ur stats and `blacktea stats (user)` to see someone else stats
+- give each player 2 lives
+- let it say this message in a embed when someone write .blacktea also make sure the bot self react to that embed with ✅ and who ever reacts with the ✅ to that embed gets to join the next game , also make this embed set a 30 seconds timer then start the game by asking each person who joined turn by turn and react to them by ✅ if they said it right dont send a message saying they got it right cuz it will flood chat js move to the next player turn until everyone lose and only 1 eliminates and then drop a message saying (user) has won
+heres the embed message:
+
+"Waiting for players, react with ✅ to join. The game will begin in 30 seconds.
+GOAL: You have 10 seconds to say a word containing the given group of 3 letters.
+Failure to do so within the 10 seconds will lose a life.
+Each player has 2 lives to begin with.
+NOTES: A word can only be used once through the course of the game."
+
+2. **GuessWord Game**
+- Another word-guessing game (single letters).
+- Track wrong guesses and display progress with underscores.
+- End game after correct guess or 6 wrong attempts.
+- Include a `.guessword (category)` command to start the game. and `.guessword stats` to see ur stats and `.guessword stats (user)` to see someone else stats
+- add 4 categories , clothing and animals and celeberties and food and if someone wanna play a specific category he does ".guessword (category)
+- first person to guess the word right in each game , ends the whole game and says "(user) guessed it first)
+
+3. **Swear Tracking System**
+- Detect a list of predefined swear words in messages .
+- Track swears per user in a JSON file.
+- add a `.swears` command for each player to check his swears and `.swears (user) to see someone's swear
+
+4. **Unmute Logging**
+- Detect when a user is unmuted in a guild.
+- Log the unmute event in a specific channel (`UNMUTE_CHANNEL_ID`).
+- basically if a user is server muted and he joins that voice channel he gets unmuted and also if he stayed in that channel more than 5 seconds he gets disconnected
+
+5. **Voice Channel Join Logging**
+- Detect when a user joins any voice channel.
+- Log the event in a VC log channel (`VC_LOG_CHANNEL_ID`). 
+- make the text say "a new vc has been created by (user) | click to join (vc channel link)
+
+6. **Data Storage**
+- Keep all user data (BlackTea wins, swears, etc.) in `data.json`.
+- Save data safely after any changes.
+
+7. **Persistent Dictionary**
+- Load words from `words_alpha.txt`.
+- Use this dictionary for both BlackTea and GuessWord games.
+
+**Technical Requirements:**
+- Use Discord.js v14+
+- Node.js environment
+- Include all necessary imports and client setup.
+- Handle multiple events and games safely.
+- Include placeholders for `YOUR_BOT_TOKEN`, `BLACKTEA_ROLE_ID`, `UNMUTE_CHANNEL_ID`, and `VC_LOG_CHANNEL_ID`.
+- Ensure the bot logs in properly and all commands work (`.blacktea`, `.guessword (category), `swears`, more i have mentioned.).
+- Include comments marking each major section (BlackTea, GuessWord, Swear System, Unmute Logs, VC Logs, Data Storage).
+
+Please create a **full, working script** that combines all these features in one file (`index.js`), fully functional and ready to run in Replit.

@@ -1,0 +1,230 @@
+Continue the Discord bot.
+
+Do NOT rewrite existing systems.
+
+Finish the moderation system completely.
+
+====================================================
+PUNISHMENTS
+====================================================
+
+Complete:
+
+.tempban
+.softban
+.hardban
+.unban
+.unbanall
+.unbanall cancel
+
+.jail
+.unjail
+.jaillist
+
+.temprole
+.temprole list
+
+.mute
+.unmute
+
+.imute
+.iunmute
+
+.rmute
+.runmute
+
+.tempban must automatically unban after duration.
+
+====================================================
+WARNS / NOTES / HISTORY
+====================================================
+
+Complete:
+
+.warn
+.warnings
+
+.notes
+.notes add
+.notes remove
+.notes clear
+
+.history
+.history view
+.history remove
+.history removeall
+
+.caselog
+
+.reason
+
+.moderationhistory
+
+.modstats
+
+Every punishment must create a permanent case ID.
+
+Store:
+
+Moderator
+Target
+Reason
+Date
+Duration
+Proof
+Action
+
+Everything per guild.
+
+====================================================
+PROOF SYSTEM
+====================================================
+
+Complete:
+
+.proof
+.proof add
+.proof remove
+.proof view
+.proof set
+.proof list
+
+Allow multiple attachments per case.
+
+====================================================
+REMINDERS
+====================================================
+
+Complete:
+
+.remind
+.remind list
+.remind remove
+.reminders
+
+Support minutes, hours, days and weeks.
+
+====================================================
+THREADS
+====================================================
+
+Complete:
+
+.thread lock
+.thread unlock
+.thread rename
+.thread add
+.thread remove
+.thread watch
+.thread watch list
+
+====================================================
+RAID MODERATION
+====================================================
+
+Complete:
+
+.raid
+
+.newmembers
+
+.recentban
+
+.clearinvites
+
+====================================================
+COMMAND RESTRICTIONS
+====================================================
+
+Complete:
+
+.restrictcommand add
+.restrictcommand remove
+.restrictcommand list
+.restrictcommand reset
+
+Respect the staff restriction system.
+
+If restricted:
+
+"Woopsie, this command is restricted for your role."
+
+====================================================
+NICKNAMES
+====================================================
+
+Complete:
+
+.rename
+
+.forcenickname
+
+.forcenickname list
+
+====================================================
+CHANNEL TOOLS
+====================================================
+
+Complete:
+
+.naughty
+
+.setupmute
+
+.permissions
+
+.dump
+
+====================================================
+LOGGING
+====================================================
+
+Every moderation command must log:
+
+Moderator
+
+Target
+
+Reason
+
+Duration
+
+Timestamp
+
+Case ID
+
+Channel
+
+====================================================
+HELP MENU
+====================================================
+
+Keep the paginated help system.
+
+Maximum 10 commands per page.
+
+Buttons:
+
+◀ Previous
+
+Next ▶
+
+Search must work.
+
+====================================================
+QUALITY
+====================================================
+
+No placeholders.
+
+Production ready.
+
+Rate-limit safe.
+
+Per-guild database.
+
+No duplicate code.
+
+Optimize for large servers.
+
+When finished, moderation should be 100% complete and ready for production.

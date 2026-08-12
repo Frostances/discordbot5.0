@@ -1,0 +1,475 @@
+Continue the Discord bot.
+
+Do NOT rewrite existing systems.
+
+Completely finish and revamp the Ticket System.
+
+Everything must be production-ready.
+
+========================================
+CURRENT SYSTEM FIXES
+========================================
+
+Fix these issues:
+
+- During ticket setup only ask for the Unverified Role.
+- Do NOT create or require a Verified role.
+- Replace every hardcoded value with per-guild database settings.
+
+When a ticket is closed:
+
+- Do NOT delete the channel.
+- Hide the ticket from the ticket opener.
+- Keep it visible for support roles.
+- Staff can reopen it.
+
+Add a second button beside Close:
+
+Delete
+
+Delete permanently removes the ticket channel.
+
+Only support roles may press Delete.
+
+Ticket opener cannot delete tickets.
+
+========================================
+SUPPORT ROLES
+========================================
+
+Add:
+
+.ticket support add <role>
+
+.ticket support remove <role>
+
+Support roles should:
+
+View tickets
+
+Reply
+
+Claim
+
+Close
+
+Delete
+
+Reopen
+
+Generate transcript
+
+Move
+
+Rename
+
+Manage trainees
+
+========================================
+COMPLETE COMMANDS
+========================================
+
+Implement every command below:
+
+.ticket
+
+.ticket setup
+
+.ticket panel
+
+.ticket panels
+
+.ticket resend
+
+.ticket options
+
+.ticket forms
+
+.ticket transcript
+
+.ticket reopen
+
+.ticket move
+
+.ticket rename
+
+.ticket reason
+
+.ticket stats
+
+.ticket blacklist
+
+.ticket profile
+
+.ticket profiles
+
+.ticket claim
+
+.ticket unclaim
+
+.ticket close
+
+.ticket delete
+
+.ticket allow
+
+.ticket allow list
+
+.ticket deny
+
+.ticket list
+
+.ticket trainee
+
+.ticket trainee grant
+
+.ticket trainee revoke
+
+.ticket trainee list
+
+========================================
+PANELS
+========================================
+
+Allow unlimited ticket panels.
+
+Each panel should support:
+
+Name
+
+Description
+
+Category
+
+Color
+
+Image
+
+Thumbnail
+
+Footer
+
+Buttons
+
+Dropdowns
+
+Custom Emojis
+
+Multiple ticket types
+
+Each panel stores:
+
+Support roles
+
+Category
+
+Transcript channel
+
+Log channel
+
+Limit
+
+Cooldown
+
+Required roles
+
+Blacklisted roles
+
+Questions/Form
+
+========================================
+TICKET FORMS
+========================================
+
+Reusable forms.
+
+Support:
+
+Short text
+
+Paragraph
+
+Dropdown
+
+Boolean
+
+Required fields
+
+Optional fields
+
+Validation
+
+Multiple forms.
+
+========================================
+TICKET CLAIMS
+========================================
+
+Support:
+
+Claim
+
+Unclaim
+
+Transfer
+
+Claim history
+
+Claim time
+
+Staff statistics
+
+========================================
+TRANSCRIPTS
+========================================
+
+Generate beautiful HTML transcripts.
+
+Include:
+
+Messages
+
+Embeds
+
+Buttons
+
+Images
+
+Attachments
+
+Replies
+
+Stickers
+
+Edited messages
+
+Deleted messages if available
+
+Store transcript link.
+
+========================================
+ALLOW / DENY
+========================================
+
+.ticket allow
+
+.ticket deny
+
+.ticket allow list
+
+Support members and roles.
+
+========================================
+TRAINEE SYSTEM
+========================================
+
+Grant trainee permissions:
+
+Speak
+
+Claim
+
+Close
+
+View
+
+Remove
+
+List
+
+Per ticket.
+
+========================================
+REOPEN
+========================================
+
+Closed tickets:
+
+Can be reopened.
+
+Restore permissions.
+
+Restore ticket opener access.
+
+========================================
+MOVE
+========================================
+
+Move tickets between:
+
+Categories
+
+Ticket types
+
+Panels
+
+Keep history.
+
+========================================
+BLACKLIST
+========================================
+
+Blacklist:
+
+Members
+
+Roles
+
+Reasons
+
+Expiration
+
+========================================
+REASONS
+========================================
+
+Store reason for:
+
+Close
+
+Delete
+
+Move
+
+Rename
+
+Claim
+
+Unclaim
+
+Reopen
+
+========================================
+STATISTICS
+========================================
+
+Store:
+
+Opened
+
+Closed
+
+Deleted
+
+Claimed
+
+Average response time
+
+Average close time
+
+Staff activity
+
+Top staff
+
+Top ticket creators
+
+========================================
+PERMISSIONS
+========================================
+
+Support:
+
+Ticket owner
+
+Support role
+
+Admin
+
+Bot owner
+
+Allowed users
+
+Denied users
+
+Blacklist
+
+Permission sync.
+
+========================================
+BUTTONS
+========================================
+
+Buttons:
+
+Create
+
+Close
+
+Delete
+
+Claim
+
+Unclaim
+
+Transcript
+
+Rename
+
+Move
+
+Reopen
+
+========================================
+HELP MENU
+========================================
+
+Integrate into paginated help.
+
+Maximum 10 commands per page.
+
+========================================
+DATABASE
+========================================
+
+Everything stored per guild.
+
+Never share ticket settings between servers.
+
+========================================
+OPTIMIZATION
+========================================
+
+No duplicate code.
+
+Rate-limit safe.
+
+Modular architecture.
+
+No placeholders.
+
+Production ready.
+
+Make this ticket system comparable to premium Discord bots like Sapphire, TicketsBot and Evict.
+
+
+====================================================
+IMPORTANT CONTINUATION INSTRUCTIONS
+====================================================
+
+This feature is large. Prioritize implementing as much of the ticket system as possible before stopping.
+
+If you are approaching your context or generation limit:
+
+1. Finish the current file before moving to another.
+2. Never leave partially written functions or broken code.
+3. Mark unfinished ticket features with clear TODO comments.
+4. Keep the architecture modular so the remaining features can be implemented later without rewriting completed work.
+5. Do not remove or simplify existing functionality just to save space.
+6. Prioritize core functionality in this order:
+
+• Ticket permissions
+• Support roles
+• Close/Delete/Reopen workflow
+• Ticket panels
+• Ticket commands
+• Transcripts
+• Forms
+• Claims
+• Statistics
+• Profiles
+• Trainee system
+• Remaining quality-of-life features
+
+If generation stops before completion, leave the project in a fully working state and make it obvious what remains so it can be continued in the next prompt.
+
+When I return with the next prompt, continue exactly where you left off instead of rebuilding existing code.

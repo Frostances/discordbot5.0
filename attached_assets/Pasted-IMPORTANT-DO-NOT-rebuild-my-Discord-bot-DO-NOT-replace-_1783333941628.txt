@@ -1,0 +1,652 @@
+IMPORTANT:
+DO NOT rebuild my Discord bot.
+DO NOT replace existing systems.
+DO NOT delete existing commands.
+DO NOT create another project.
+
+This bot already exists and already has many working systems including moderation, tickets, leveling, economy, AI, etc.
+
+Your job is to CONTINUE developing the existing bot while keeping backwards compatibility with every existing command.
+
+Before making any changes:
+
+• Analyze the entire codebase.
+• Understand how every command works.
+• Reuse existing code whenever possible.
+• Refactor only if absolutely necessary.
+• Keep existing commands working.
+• Never break existing databases.
+• Never remove existing features.
+
+==================================================
+PROJECT GOAL
+==================================================
+
+Turn this project into a professional all-in-one Discord bot comparable to:
+
+• Bleed
+• Evict
+• Wick
+• Carl-bot
+• Dyno
+• MEE6
+• Sapphire
+• Sx4
+
+The bot should feel premium, modern, extremely configurable and production-ready.
+
+This project is NOT a simple Discord bot anymore.
+
+Treat it like a professional SaaS platform.
+
+==================================================
+GENERAL RULES
+==================================================
+
+Everything must support BOTH:
+
+✔ Prefix Commands
+✔ Slash Commands
+
+Everything must support:
+
+✔ Buttons
+✔ Select Menus
+✔ Modals
+✔ Autocomplete
+✔ Pagination
+✔ Rich Embeds
+
+Never spam messages.
+
+Never use ugly embeds.
+
+Every system should match the same design language.
+
+==================================================
+DATABASE
+==================================================
+
+STOP using random JSON files for permanent data.
+
+Move everything to a proper database architecture.
+
+Every guild/server MUST have completely isolated data.
+
+Store everything by Guild ID.
+
+Separate collections/tables for:
+
+Guild Settings
+Users
+Warnings
+Moderation Cases
+Tickets
+Ticket Profiles
+Ticket Panels
+Ticket Forms
+Ticket Statistics
+Verification
+Economy
+Inventory
+Levels
+XP
+Level Roles
+Birthdays
+Timezones
+Reaction Roles
+Reaction Triggers
+Auto Reactions
+Suggestions
+Starboard
+Music Queue
+Giveaways
+Polls
+Logging
+Welcome
+Leave
+AutoMod
+AntiRaid
+AntiNuke
+Sticky Roles
+Restricted Commands
+Staff Roles
+Support Roles
+Temporary Roles
+Temporary Punishments
+Temporary Voice Channels
+Server Statistics
+Reminders
+Notes
+Proofs
+Backups
+Custom Commands
+Aliases
+
+Every module must save independently.
+
+==================================================
+PERFORMANCE
+==================================================
+
+Optimize everything.
+
+Avoid unnecessary API requests.
+
+Avoid duplicate collectors.
+
+Avoid memory leaks.
+
+Avoid duplicate listeners.
+
+Optimize cache usage.
+
+Handle large servers.
+
+Support:
+
+100,000+ members
+
+Thousands of concurrent guilds.
+
+Future sharding support.
+
+==================================================
+CONFIGURATION
+==================================================
+
+STOP requiring users to edit IDs inside source code.
+
+Everything currently configured through constants like:
+
+UNMUTE_CHANNEL_ID
+TOP_10_VC_CHANNEL_ID
+VC_LOG_CHANNEL_ID
+STREAK_ROLE_ID
+
+must become configurable using commands.
+
+Create configuration commands.
+
+Examples:
+
+.config set vc-log #logs
+
+.config set streak-role @Role
+
+.config set top-vc #voice
+
+.config set unmute-log #logs
+
+.config view
+
+.config reset
+
+Everything must save into database.
+
+==================================================
+PER GUILD SETTINGS
+==================================================
+
+Every server should have independent settings.
+
+Changing settings in one server MUST NOT affect another server.
+
+Everything should automatically create default settings when the bot joins a new guild.
+
+==================================================
+COMMAND FRAMEWORK
+==================================================
+
+Create a proper command registry.
+
+Every command should have metadata.
+
+Command Name
+
+Aliases
+
+Category
+
+Description
+
+Usage
+
+Examples
+
+Permissions
+
+Cooldown
+
+Slash Enabled
+
+Prefix Enabled
+
+Hidden
+
+Owner Only
+
+Guild Only
+
+NSFW
+
+Autocomplete
+
+==================================================
+HELP SYSTEM REVAMP
+==================================================
+
+The current help system takes too much chat space.
+
+Replace it completely.
+
+Requirements:
+
+Category Dropdown
+
+Previous Button
+
+Next Button
+
+Search Command
+
+Search Alias
+
+Page Counter
+
+Beautiful embeds
+
+Responsive design
+
+Maximum:
+
+10 commands per page.
+
+Never show more than 10 commands in one embed.
+
+Example:
+
+Moderation
+
+Page 1
+
+ban
+kick
+warn
+mute
+timeout
+history
+notes
+purge
+role
+lockdown
+
+Page 2
+
+softban
+tempban
+hardban
+unban
+jail
+unjail
+rename
+topic
+slowmode
+restrictcommand
+
+etc.
+
+If a category has 70 commands:
+
+Create 7 pages.
+
+Every page should have:
+
+Command
+
+Description
+
+Usage
+
+Footer:
+
+Page X / Y
+
+==================================================
+COMMAND SEARCH
+==================================================
+
+Add:
+
+.help ban
+
+Should show:
+
+Description
+
+Usage
+
+Aliases
+
+Permissions
+
+Examples
+
+Subcommands
+
+Category
+
+==================================================
+ALIASES
+==================================================
+
+Create alias support.
+
+Examples:
+
+.b -> .ban
+
+.lb -> .leaderboard
+
+.tt -> .ticket
+
+Aliases configurable.
+
+==================================================
+SHORTCUTS
+==================================================
+
+Support shortcuts for every command.
+
+Every command may have multiple aliases.
+
+Store aliases in database.
+
+==================================================
+COMMAND PERMISSIONS
+==================================================
+
+Every command should define:
+
+Required Permission
+
+Required Role
+
+Required Level
+
+Cooldown
+
+Guild Only
+
+Owner Only
+
+==================================================
+ERROR HANDLING
+==================================================
+
+Create global error handler.
+
+Friendly messages.
+
+Examples:
+
+Missing Permission
+
+Invalid Member
+
+Missing Role
+
+Invalid Channel
+
+Command Disabled
+
+Cooldown
+
+Database Error
+
+==================================================
+LOGGING
+==================================================
+
+Create internal logger.
+
+Log:
+
+Command Executed
+
+Errors
+
+Warnings
+
+Database Errors
+
+API Errors
+
+Interaction Errors
+
+==================================================
+EMBEDS
+==================================================
+
+Create one consistent embed style.
+
+Use:
+
+Bot Color
+
+Icons
+
+Author
+
+Footer
+
+Timestamp
+
+Success embeds
+
+Warning embeds
+
+Error embeds
+
+Information embeds
+
+Loading embeds
+
+==================================================
+MODULE SYSTEM
+==================================================
+
+Every major feature should become a module.
+
+Examples:
+
+Moderation
+
+Tickets
+
+Music
+
+Economy
+
+Levels
+
+Verification
+
+Reaction
+
+Roleplay
+
+Fun
+
+Information
+
+AI
+
+Logging
+
+Server
+
+AutoMod
+
+AntiRaid
+
+AntiNuke
+
+Modules should be enable/disable per guild.
+
+==================================================
+API PREPARATION
+==================================================
+
+Prepare the bot for a future website.
+
+Create REST endpoints.
+
+Create internal API.
+
+Prepare OAuth2 integration.
+
+Prepare WebSocket support.
+
+Prepare Dashboard Authentication.
+
+Do NOT build website yet.
+
+Only prepare backend.
+
+==================================================
+LIVE DATA
+==================================================
+
+Create API methods that can later provide:
+
+Guild Count
+
+User Count
+
+Commands Executed
+
+Tickets Open
+
+Warnings
+
+XP
+
+Economy
+
+Music
+
+Giveaways
+
+Moderation Stats
+
+Bot Ping
+
+Shard Status
+
+CPU
+
+RAM
+
+Uptime
+
+==================================================
+COMMAND LIST
+==================================================
+
+Create:
+
+.commands
+
+Shows every command.
+
+Category dropdown.
+
+Pagination.
+
+Search.
+
+Maximum:
+
+10 commands per page.
+
+==================================================
+AUTO REGISTRATION
+==================================================
+
+When the bot joins a server:
+
+Automatically:
+
+Create default configuration
+
+Create database records
+
+Register settings
+
+Initialize modules
+
+==================================================
+FOLDER STRUCTURE
+==================================================
+
+Refactor into professional folders if needed.
+
+Commands/
+
+Events/
+
+Handlers/
+
+Database/
+
+Models/
+
+Services/
+
+Utilities/
+
+Embeds/
+
+API/
+
+Dashboard/
+
+Modules/
+
+Assets/
+
+==================================================
+DOCUMENTATION
+==================================================
+
+Comment important code.
+
+Keep naming consistent.
+
+Avoid duplicate code.
+
+Create reusable helper functions.
+
+==================================================
+FINAL REQUIREMENTS
+==================================================
+
+Do NOT stop after one feature.
+
+Continue implementing until every requirement above is finished.
+
+If existing code can be improved, improve it without breaking compatibility.
+
+Keep the project clean, modular, scalable, and production-ready.
+
+When finished, provide a summary of:
+• Files changed
+• New systems added
+• Database changes
+• APIs prepared
+• Commands added
+• Architecture improvements
+• Any recommendations before continuing to Prompt 2.
+
+DO NOT START IMPLEMENTING MODERATION, TICKETS, ANTINUKE, ANTIRAID, MUSIC, OR OTHER MAJOR FEATURES YET. THIS PROMPT IS ONLY FOR BUILDING THE FOUNDATION THEY WILL USE.

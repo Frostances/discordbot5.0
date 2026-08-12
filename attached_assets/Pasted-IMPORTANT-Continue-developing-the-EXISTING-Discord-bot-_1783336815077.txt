@@ -1,0 +1,597 @@
+IMPORTANT:
+
+Continue developing the EXISTING Discord bot.
+
+DO NOT rebuild the project.
+DO NOT remove existing commands.
+DO NOT rewrite working systems.
+DO NOT break backwards compatibility.
+
+Use the architecture created in Prompt 1.
+
+Everything added must integrate with:
+
+• Database
+• Guild Settings
+• Logging
+• Help System
+• Pagination
+• Buttons
+• Dropdowns
+• Slash Commands
+• Prefix Commands
+• Command Registry
+
+====================================================
+GOAL
+====================================================
+
+Completely finish and redesign the Moderation system until it is comparable to Bleed, Evict, Wick, Carl-bot and Dyno.
+
+The moderation category is currently less than 30% complete.
+
+Implement every missing moderation command and improve every existing moderation command.
+
+Nothing should feel unfinished.
+
+====================================================
+GENERAL REQUIREMENTS
+====================================================
+
+Every moderation command must support:
+
+✔ Slash Commands
+
+✔ Prefix Commands
+
+✔ Rich Embeds
+
+✔ Buttons
+
+✔ Confirmation Modals where appropriate
+
+✔ Pagination
+
+✔ Logging
+
+✔ Case IDs
+
+✔ Reason Editing
+
+✔ Database Storage
+
+✔ Autocomplete
+
+✔ Cooldowns
+
+✔ Permission Checks
+
+✔ Error Handling
+
+✔ Guild Isolation
+
+Every punishment must create a moderation case.
+
+====================================================
+CASE LOG SYSTEM
+====================================================
+
+Build a professional moderation case system.
+
+Every moderation action creates:
+
+Case ID
+
+Moderator
+
+Target
+
+Reason
+
+Date
+
+Guild
+
+Command Used
+
+Duration
+
+Evidence
+
+Proof Links
+
+Editable Reason
+
+Status
+
+Case Types:
+
+Warn
+
+Mute
+
+Timeout
+
+Kick
+
+Ban
+
+Tempban
+
+Softban
+
+Hardban
+
+Jail
+
+Role Punishment
+
+Nickname Change
+
+Lockdown
+
+Raid Action
+
+Everything should save permanently.
+
+====================================================
+MODERATION HISTORY
+====================================================
+
+Complete:
+
+history
+
+history view
+
+history remove
+
+history removeall
+
+moderationhistory
+
+caselog
+
+reason
+
+proof
+
+proof add
+
+proof remove
+
+proof set
+
+proof list
+
+proof view
+
+notes
+
+notes add
+
+notes remove
+
+notes clear
+
+warnings
+
+modstats
+
+Every command should use pagination.
+
+====================================================
+WARN SYSTEM
+====================================================
+
+Complete warning system.
+
+Support:
+
+Unlimited warnings
+
+Editable reasons
+
+Warning IDs
+
+Automatic escalation
+
+Temporary warnings (optional)
+
+Commands:
+
+warn
+
+warnings
+
+history
+
+history remove
+
+history removeall
+
+====================================================
+BAN SYSTEM
+====================================================
+
+Implement:
+
+ban
+
+softban
+
+hardban
+
+tempban
+
+unban
+
+unbanall
+
+unbanall cancel
+
+ban purge
+
+ban recent
+
+recentban
+
+Support:
+
+Delete history
+
+Duration
+
+Reason
+
+Confirmation
+
+Buttons
+
+Case Logs
+
+Logging
+
+====================================================
+TIMEOUT SYSTEM
+====================================================
+
+Complete:
+
+timeout
+
+untimeout
+
+timeout list
+
+Support:
+
+Duration Parsing
+
+Reason
+
+Automatic expiration
+
+Case Logs
+
+Logs
+
+====================================================
+MUTE SYSTEM
+====================================================
+
+Finish:
+
+mute
+
+unmute
+
+imute
+
+iunmute
+
+rmute
+
+runmute
+
+setupmute
+
+Support:
+
+Temporary mutes
+
+Permanent mutes
+
+Automatic unmute
+
+Mute Role
+
+Voice Mute
+
+Case Logs
+
+====================================================
+JAIL SYSTEM
+====================================================
+
+Complete:
+
+jail
+
+unjail
+
+jaillist
+
+Support:
+
+Temporary jail
+
+Permanent jail
+
+Automatic release
+
+Jail role
+
+Case logs
+
+Logs
+
+====================================================
+ROLE MODERATION
+====================================================
+
+Complete every role command:
+
+role
+
+role add
+
+role remove
+
+role humans
+
+role humans remove
+
+role bots
+
+role bots remove
+
+role has
+
+role has remove
+
+role restore
+
+role create
+
+role delete
+
+role edit
+
+role color
+
+role color gradient
+
+role topcolor
+
+role mentionable
+
+role hoist
+
+role icon
+
+role cancel
+
+temprole
+
+temprole list
+
+Everything should support progress embeds for mass role operations.
+
+Large servers should process members in batches.
+
+Do NOT freeze the bot.
+
+====================================================
+CHANNEL MODERATION
+====================================================
+
+Complete:
+
+lockdown
+
+lockdown all
+
+lockdown role
+
+lockdown ignore
+
+lockdown ignore add
+
+lockdown ignore remove
+
+lockdown ignore list
+
+unlock
+
+unlock all
+
+hide
+
+unhide
+
+talk
+
+slowmode
+
+slowmode on
+
+slowmode off
+
+revokefiles
+
+revokefiles on
+
+revokefiles off
+
+topic
+
+rename
+
+Support:
+
+Confirmation buttons
+
+Logs
+
+Case creation where appropriate
+
+====================================================
+THREAD SYSTEM
+====================================================
+
+Finish:
+
+thread
+
+thread lock
+
+thread unlock
+
+thread rename
+
+thread add
+
+thread remove
+
+thread watch
+
+thread watch list
+
+Support Forum Channels.
+
+====================================================
+PURGE SYSTEM
+====================================================
+
+Finish every purge filter:
+
+purge
+
+purge bots
+
+purge humans
+
+purge links
+
+purge embeds
+
+purge files
+
+purge images
+
+purge emoji
+
+purge emotes
+
+purge stickers
+
+purge reactions
+
+purge mentions
+
+purge activity
+
+purge before
+
+purge after
+
+purge between
+
+purge contains
+
+purge startswith
+
+purge endswith
+
+purge upto
+
+Every purge should show:
+
+Deleted Count
+
+Execution Time
+
+Moderator
+
+Filter Used
+
+====================================================
+NICKNAME SYSTEM
+====================================================
+
+Complete:
+
+rename
+
+forcenickname
+
+forcenickname list
+
+stripstaff
+
+Support:
+
+Permanent nicknames
+
+Restore original nickname
+
+Logs
+
+Case logs
+
+====================================================
+VOICE MODERATION
+====================================================
+
+Complete:
+
+moveall
+
+drag
+
+Support:
+
+Progress indicator
+
+Permission checks
+
+Voice logging
+
+====================================================
+RESTRICTED COMMANDS
+====================================================
+
+Finish:
+
+restrictcommand
+
+restrictcommand add
+
+restrictcommand remove
+
+restrictcommand reset
+
+restrictcommand list
+
+Store restrictions in database.
+
+Support role-based command restrictions.
+
+When blocked show:
+
+"Woopsie! This command is restricted for your role."
+
+This must integrate with the Staff Restriction system that will be expanded later.
+
+====================================================
